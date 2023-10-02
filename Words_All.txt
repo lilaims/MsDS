@@ -43,6 +43,10 @@ Categorical , Ordinal , Nominal
 
 Disimilarity Matrix
 
+Categorical 
+Categorical Storage
+Encoding Categorical
+One hot encoders , Binary Encoding , 
 
 ___________________________________________________________________________________________________
 Learning
