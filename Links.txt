@@ -1,0 +1,9 @@
+Categorical
+https://pandas.pydata.org/docs/reference/arrays.html#api-arrays-categorical
+https://pandas.pydata.org/docs/user_guide/categorical.html#categorical-memory
+
+Memory usage
+The memory usage of a Categorical is proportional to the number of categories plus the length of the data. In contrast, an object dtype is a constant times the length of the data.
+
+Sparse
+Data where a single value is repeated many times (e.g. 0 or NaN) may be stored efficiently as a arrays.SparseArray.
