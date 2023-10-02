@@ -48,6 +48,12 @@ Categorical Storage
 Encoding Categorical
 One hot encoders , Binary Encoding , 
 
+Gamma Distribution
+Gamma Function 
+Exponential Distribution
+Beta Distribution
+
+univariate , Biviriate , Multivariate
 ___________________________________________________________________________________________________
 Learning
 Supervised , Unsupervised, Reinforcement , Generative
