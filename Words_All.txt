@@ -1,0 +1,71 @@
+Bayesian Statistics
+Posterior
+
+Probability Theory
+Classical , Frequency , Axiomatic - rules based 
+Conditional Probability
+Probability Distributions
+Combinatorics
+
+Estimators
+Moment
+Moment Generating Functions
+Mean , Median , Mode
+Variance , Co Variance
+Corelation 
+Convolution
+Skewed , Symmetry 
+Kurtosis
+
+Discrete
+Uniform , Bernoulli , Binomial , Geometric ,
+Hyper Geometric ,  Poisson 
+
+Continuous
+Normal , Chisquared , T 
+
+Random Variables
+Sampling
+Counting
+Arrangement
+
+Probability Density Function
+
+
+
+Circular Permutations
+
+Distances
+
+Types of Data 
+Categorical , Ordinal , Nominal
+
+
+Disimilarity Matrix
+
+
+___________________________________________________________________________________________________
+Learning
+Supervised , Unsupervised, Reinforcement , Generative
+
+
+
+___________________________________________________________________________________________________
+Data Visualization
+Plots
+Seaborn
+
+histogram 
+whisker 
+continuous 
+discrete
+
+
+time 
+frequency 
+quantity
+probability
+normalised
+density
+
+
