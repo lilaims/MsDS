@@ -65,6 +65,10 @@ SSSE , MSE , MAE
 
 cosine x T . y/ |x||y|
 
+Polynomial regression
+Hyperparameter
+
+
 ***
 one to one mapping , one to many mapping is fine
 ??but many to one mapping is not fine but fine in machine learning
