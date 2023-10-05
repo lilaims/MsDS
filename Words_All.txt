@@ -68,6 +68,7 @@ cosine x T . y/ |x||y|
 Polynomial regression
 Hyperparameter
 
+the question is why cant the function too have many to one mpping , wont it have something missing.
 
 ***
 one to one mapping , one to many mapping is fine
