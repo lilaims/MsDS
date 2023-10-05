@@ -56,8 +56,14 @@ Beta Distribution
 univariate , Biviriate , Multivariate
 ___________________________________________________________________________________________________
 Learning
-Supervised , Unsupervised, Reinforcement , Generative
+Supervised , Unsupervised, Reinforcement
 
+Generative, Predictive
+
+SSSE , MSE , MAE
+|y-yi| , |y-yi|^2 , |y-yi|
+
+cosine x T . y/ |x||y|
 
 
 ___________________________________________________________________________________________________
