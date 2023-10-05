@@ -65,9 +65,11 @@ SSSE , MSE , MAE
 
 cosine x T . y/ |x||y|
 
+***
 one to one mapping , one to many mapping is fine
 ??but many to one mapping is not fine but fine in machine learning
 dataset its possible but not in the model
+like the poker problem
 
 ??Probability density vs Probability distribution
 ___________________________________________________________________________________________________
