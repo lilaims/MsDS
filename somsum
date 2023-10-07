@@ -1,0 +1,18 @@
+Procedural Generation
+````````````````````````````````````````````````````````````````````````
+Generative AI
+````````````````````````````````````````````````````````````````````````
+Reinforcement Learning
+Agent Environment
+State , Reward , Action
+Discount Factor
+Policy , Value
+Q-vaue or Action Value
+
+type - Model based , Model free Learning Algorithms
+Model-based algorithm use the transition and reward function to estimate the optimal policy.
+Model-free algorithms find the optimal policy with very limited knowledge of the dynamics of the environment. They do no thave any transition/reward function to judge the best policy.
+
+markov assumption - It assumes that the future state of a process only depends on its current state, not on the sequence of events that preceded it
+
+trial and error
