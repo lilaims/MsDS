@@ -16,3 +16,17 @@ Model-free algorithms find the optimal policy with very limited knowledge of the
 markov assumption - It assumes that the future state of a process only depends on its current state, not on the sequence of events that preceded it
 
 trial and error
+
+```````````````````````````````````````````````````````````````````````````````````````````````
+Welcome to Artificial Intelligence in Games. During this module you will learn a range of Artificial Intelligence techniques employed in games, 
+as well as how games can be used for research in Artificial Intelligence. During this module you will learn how to program agents to play different types of games in both single and multi-player settings.
+
+**Statistical Forward Planning and Reinforcement Learning
+
+Search and how is it applied to games 
+
+Search in Games	Assignment 1 Exercises
+2	Oct 2	Monte Carlo Tree Search	Assignment 1 Exercises
+3	Oct 9	Search by Evolution	Assignment 1 Exercises
+4	Oct 16	Adversarial and Complex Games	Assignment 1 Work
+5	Oct 23	Imperfect Information in Games
