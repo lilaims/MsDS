@@ -10,6 +10,10 @@ Policy , Value
 Q-vaue or Action Value
 
 type - Model based , Model free Learning Algorithms
+Statistical Forward Planning and Reinforcement Learning
+Exploration and Exploitation
+
+
 Model-based algorithm use the transition and reward function to estimate the optimal policy.
 Model-free algorithms find the optimal policy with very limited knowledge of the dynamics of the environment. They do no thave any transition/reward function to judge the best policy.
 
