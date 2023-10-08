@@ -1,3 +1,7 @@
+Categorical - Storing categorical data with libs
+One hot encoding - Transforming categorical data to store
+Auto Encoders - Compressing data 
+``````````````````
 Categorical
 https://pandas.pydata.org/docs/reference/arrays.html#api-arrays-categorical
 https://pandas.pydata.org/docs/user_guide/categorical.html#categorical-memory
@@ -53,3 +57,10 @@ import pandas as pd
 city = ['New York', 'London', 'Paris', 'Tokyo', 'Paris']
 encoder = ce.BinaryEncoder(cols=['city'])
 city_encoded = encoder.fit_transform(pd.DataFrame(city, columns=['city']))
+
+************************************************
+Compressing Data
+an encoding function that transforms the input data, 
+a decoding function that recreates the input data from the encoded representation
+
+Auto Encoders , Variational Autoencoders
