@@ -1,6 +1,6 @@
 Categorical - Storing categorical data with libs
 One hot encoding - Transforming categorical data to store
-Auto Encoders - Compressing data 
+Auto Encoders - Compressing data ; Compressing categorical , sparse data
 ``````````````````
 Categorical
 https://pandas.pydata.org/docs/reference/arrays.html#api-arrays-categorical
