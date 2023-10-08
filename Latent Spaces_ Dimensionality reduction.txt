@@ -1,0 +1,55 @@
+Latent Space
+Dimensionality reduction
+autoencoders
+variational autoencoders
+```````````````````````````
+
+Latent Space
+
+The real-world data is often redundant with high dimensions. This poses challenges not only for computational efficiency
+but also hinders the modelling of the representation. Consider for example, the swiss roll in the figure below.
+The data is in three dimensions however, when we unroll it, it only required two dimensions to represent the same object.
+This is called dimensionality reduction and more specifically, dimensionality reduction using manifold learning. 
+The basic assumption here is that the high dimensional data has often a lower dimension embedding which 
+is sufficient to represent the content of the original data.
+
+Now if we extend this concept in image representation problem, we realize that there must exist a lower dimension space
+that should be sufficient to describe the content of our image dataset. We call such space as “Latent space”.
+It is a lower dimensional manifold of the high dimensional images where we expect all the instances of the dataset
+to lie in proximity.
+
+Dimensionality reduction
+
+Dimensionality reduction, or dimension reduction, is the transformation of data from a high-dimensional space into a
+low-dimensional space so that the low-dimensional representation retains some meaningful properties of the original data,
+ideally close to its intrinsic dimension.
+The number of input variables or features for a dataset is referred to as its dimensionality.
+
+Dimensionality reduction refers to techniques that reduce the number of input variables in a dataset.
+
+More input features often make a predictive modeling task more challenging to model, more generally referred to as the curse of dimensionality.
+
+High-dimensionality statistics and dimensionality reduction techniques are often used for data visualization. Nevertheless these techniques can be used in applied machine learning to simplify a classification or regression dataset in order to better fit a predictive model.
+
+In this post, you will discover a gentle introduction to dimensionality reduction for machine learning
+
+After reading this post, you will know:
+
+Large numbers of input features can cause poor performance for machine learning algorithms.
+Dimensionality reduction is a general field of study concerned with reducing the number of input features.
+Dimensionality reduction methods include feature selection, linear algebra methods, projection methods, and autoencoders.
+ high-dimensional functions have the potential to be much more complicated than low-dimensional ones
+
+Dimensionality reduction is a data preparation technique performed on data prior to modeling. It might be performed after data cleaning and data scaling and before training a predictive model.
+
+--perform feature selection, to remove “irrelevant” features that do not help much with the classification problem.
+--Linear Algebra : Maxtrix factorization
+--Principal Component Analysis - PCA
+--Manifold Learning :Techniques from high-dimensionality statistics can also be used for dimensionality reduction.
+--Using Projection
+  >>Kohonen Self-Organizing Map (SOM).
+  >>Sammons Mapping
+  >>Multidimensional Scaling (MDS)
+  >>t-distributed Stochastic Neighbor Embedding (t-SNE).
+
+Auto Encoders
