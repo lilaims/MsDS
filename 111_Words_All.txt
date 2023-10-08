@@ -79,6 +79,9 @@ like the poker problem
 ??Probability density vs Probability distribution
 
 Latent Space
+Dimensionality Reduction
+Autoencoders
+Variational autoencoders
 ___________________________________________________________________________________________________
 Data Visualization
 Plots
