@@ -77,6 +77,8 @@ dataset its possible but not in the model
 like the poker problem
 
 ??Probability density vs Probability distribution
+
+Latent Space
 ___________________________________________________________________________________________________
 Data Visualization
 Plots
