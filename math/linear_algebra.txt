@@ -1,0 +1,20 @@
+Latent Spaces
+Dimensionality Reduction
+Eigen Decomposition
+Singular Value Decomposition
+Linear Discriminant Analysis
+
+
+
+```````````````````````````````````````````````````````
+
+~~Eigen Decomposition
+ factorization of a matrix into a canonical form, whereby the matrix is represented in terms of its eigenvalues and eigenvectors.
+ Only diagonalizable matrices can be factorized in this way
+~~SVD 
+ In linear algebra, the singular value decomposition (SVD) is a factorization of a real or complex matrix. 
+ It generalizes the eigendecomposition of a square normal matrix with an orthonormal eigenbasis to any m*n matrix
+
+~~Linear Discriminant Analysis
+a method used in statistics and other fields, to find a linear combination of features that characterizes or separates two or more classes of objects or events.
+The resulting combination may be used as a linear classifier, or, more commonly, for dimensionality reduction before later classification.
