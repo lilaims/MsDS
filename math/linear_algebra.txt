@@ -4,6 +4,8 @@ Eigen Decomposition
 Singular Value Decomposition
 Linear Discriminant Analysis
 
+Dense and Sparse Matrices
+
 
 
 ```````````````````````````````````````````````````````
