@@ -37,3 +37,13 @@ Driver routines:
  Performs a distinct computational task.  LU factorisation.
  Auxiliary routines:
  Subtask or common low-level computation.  Matrix norm
+
+systems of linear equations
+ least-squares solutions of linear systems
+ overdetermined
+ underdetermined
+ rank deficient
+ eigenvalue problems
+ symmetric
+ nonsymmetric
+ singular value problems
