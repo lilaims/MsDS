@@ -31,36 +31,3 @@ The scalars ai are called the coordinates of the vector v with respect to the ba
 
 A vector space that has a finite basis is called finite-dimensional. In this case, the finite subset can be taken as B itself to check for linear independence in the above definition.
 
-Driver routines:
- Solve standard types of problems.  Linear systems.
- Computational routines:
- Performs a distinct computational task.  LU factorisation.
- Auxiliary routines:
- Subtask or common low-level computation.  Matrix norm
-
-systems of linear equations
- least-squares solutions of linear systems
- overdetermined
- underdetermined
- rank deficient
- eigenvalue problems
- symmetric
- nonsymmetric
- singular value problems
-
-X YY ZZZ
-X - Data Type
-•S single
-•D double
-•C complex
-•Z double complex
-YY - Matrix Type
-•DI diagonal
-•BD bidiagonal
-•GE general
-•OR orthogonal
-ZZZ - Computation
-•SVD singular value decomp
-•LLS linear least squares
-•CON condition number
-•TRF factorize
