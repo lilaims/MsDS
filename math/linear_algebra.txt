@@ -47,3 +47,20 @@ systems of linear equations
  symmetric
  nonsymmetric
  singular value problems
+
+X YY ZZZ
+X - Data Type
+•S single
+•D double
+•C complex
+•Z double complex
+YY - Matrix Type
+•DI diagonal
+•BD bidiagonal
+•GE general
+•OR orthogonal
+ZZZ - Computation
+•SVD singular value decomp
+•LLS linear least squares
+•CON condition number
+•TRF factorize
