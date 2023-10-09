@@ -18,3 +18,14 @@ Linear Discriminant Analysis
 ~~Linear Discriminant Analysis
 a method used in statistics and other fields, to find a linear combination of features that characterizes or separates two or more classes of objects or events.
 The resulting combination may be used as a linear classifier, or, more commonly, for dimensionality reduction before later classification.
+
+F <-> V <-- B
+A basis B of a vector space V over a field F (such as the real numbers R or the complex numbers C) is a linearly independent subset of V that spans V. 
+This means that a subset B of V is a basis if it satisfies the two following conditions:
+1. linear independence
+2. spanning property
+The scalars ai are called the coordinates of the vector v with respect to the basis B, and by the first property they are uniquely determined.
+
+A vector space that has a finite basis is called finite-dimensional. In this case, the finite subset can be taken as B itself to check for linear independence in the above definition.
+
+
