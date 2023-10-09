@@ -6,3 +6,5 @@ Machine Learning - Supervised , Unsupervised , Reinforcement
 
 ![image](https://github.com/lilaims/MsDS/assets/69478966/1df62581-fc7f-4f6e-92ba-d5347fe2f69b)
 
+![image](https://github.com/lilaims/MsDS/assets/69478966/33eadd82-af25-4d4b-a352-9027d9e8a868)
+
