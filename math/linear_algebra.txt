@@ -31,4 +31,9 @@ The scalars ai are called the coordinates of the vector v with respect to the ba
 
 A vector space that has a finite basis is called finite-dimensional. In this case, the finite subset can be taken as B itself to check for linear independence in the above definition.
 
-
+Driver routines:
+ Solve standard types of problems.  Linear systems.
+ Computational routines:
+ Performs a distinct computational task.  LU factorisation.
+ Auxiliary routines:
+ Subtask or common low-level computation.  Matrix norm
