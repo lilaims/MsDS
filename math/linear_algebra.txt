@@ -6,7 +6,8 @@ Linear Discriminant Analysis
 
 Dense and Sparse Matrices
 
-
+LANPACK - Linear Algebra Pack
+ARPACK - the ARnoldi PACKage, is a numerical software library written in FORTRAN 77
 
 ```````````````````````````````````````````````````````
 
