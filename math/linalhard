@@ -1,0 +1,54 @@
+Driver routines:
+ Solve standard types of problems.  Linear systems.
+ Computational routines:
+ Performs a distinct computational task.  LU factorisation.
+ Auxiliary routines:
+ Subtask or common low-level computation.  Matrix norm
+
+systems of linear equations
+ least-squares solutions of linear systems
+ overdetermined
+ underdetermined
+ rank deficient
+ eigenvalue problems
+ symmetric
+ nonsymmetric
+ singular value problems
+
+X YY ZZZ
+X - Data Type
+•S single
+•D double
+•C complex
+•Z double complex
+YY - Matrix Type
+•DI diagonal
+•BD bidiagonal
+•GE general
+•OR orthogonal
+ZZZ - Computation
+•SVD singular value decomp
+•LLS linear least squares
+•CON condition number
+•TRF factorize
+
+ScaLAPACK
+ScaLAPACK is a distributed-memory implementation of LAPACK
+
+ScaLAPACK website
+
+PLASMA
+The Parallel Linear Algebra for Scalable Multi-core Architectures (PLASMA) project aims to address the critical and highly disruptive situation that is facing the Linear Algebra and High Performance Computing community due to the introduction of multi-core architectures.
+
+PLASMA’s ultimate goal is to create software frameworks that enable programmers to simplify the process of developing applications that can achieve both high performance and portability across a range of new architectures.
+
+The development of programming models that enforce asynchronous, out of order scheduling of operations is the concept used as the basis for the definition of a scalable yet highly efficient software framework for Computational Linear Algebra applications.
+
+PLASMA website
+
+MAGMA
+The MAGMA (Matrix Algebra on GPU and Multicore Architectures) project aims to develop a dense linear algebra library similar to LAPACK but for heterogeneous/hybrid architectures, starting with current "Multicore+GPU" systems.
+
+The MAGMA research is based on the idea that, to address the complex challenges of the emerging hybrid environments, optimal software solutions will themselves have to hybridize, combining the strengths of different algorithms within a single framework. Building on this idea, we aim to design linear algebra algorithms and frameworks for hybrid manycore and GPUs systems that can enable applications to fully exploit the power that each of the hybrid components offers.
+
+MAGMA website
