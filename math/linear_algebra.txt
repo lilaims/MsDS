@@ -1,10 +1,19 @@
 Latent Spaces
 Dimensionality Reduction
 Eigen Decomposition
+Eigen Vectors
+Eigen Values
 Singular Value Decomposition
 Linear Discriminant Analysis
 
 Dense and Sparse Matrices
+
+Linear Transformations
+Determinants - the determinant of a transformation
+Linear Systems
+Change of Basis
+
+Span - line passing through the origin and through vector fit
 
 LANPACK - Linear Algebra Pack
 ARPACK - the ARnoldi PACKage, is a numerical software library written in FORTRAN 77
