@@ -7,6 +7,7 @@ Singular Value Decomposition
 Linear Discriminant Analysis
 
 Dense and Sparse Matrices
+Square and Non Square Matrices
 Covariance Matrices
 
 Linear Transformations
@@ -17,8 +18,8 @@ Change of Basis
 Span - line passing through the origin and through vector fit
 
 LANPACK - Linear Algebra Pack
-ARPACK - the ARnoldi PACKage, is a numerical software library written in FORTRAN 77
 
+SVD works on non square matrix , eigendecomposition works on square matrices
 ```````````````````````````````````````````````````````
 
 ~~Eigen Decomposition
