@@ -1,1 +1,11 @@
+General Video Games AI
+Monte Carlo Search Tree
+Greedy Algorithms
+A * Search tree
 
+Evolutionary Computing
+Evolutionary Algorithms
+Rolling Horizon Evolutionary Algorithms
+OEP
+
+Alpha zero , Alpha Go , Alhpa Star
