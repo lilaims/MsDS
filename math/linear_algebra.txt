@@ -7,6 +7,7 @@ Singular Value Decomposition
 Linear Discriminant Analysis
 
 Dense and Sparse Matrices
+Covariance Matrices
 
 Linear Transformations
 Determinants - the determinant of a transformation
