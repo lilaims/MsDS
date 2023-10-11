@@ -9,6 +9,7 @@ Statistical Inference , Bayesian Inference
 Statistical Analysis
 Principal Component Analysis
 
+Statistical Inference - Problems of Estimation , tests of hypothesis
 
 ---------------------------------------------------------------
 Linear Algebra
