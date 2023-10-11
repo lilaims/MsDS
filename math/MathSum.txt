@@ -1,0 +1,32 @@
+Statistics 
+Probability
+Probability Distributions , Probability Densities , Mathematical Expectation , Functions of Random Variables , 
+Sampling Distributions , Decision Theory , Poist Esitmation , Interval Estimation , Hypotheses Testing ,
+Regression and Correlation
+
+Statistical Inference , Bayesian Inference
+
+Statistical Analysis
+Principal Component Analysis
+
+
+---------------------------------------------------------------
+Linear Algebra
+Scalar , Vector , Matrices , Tensors , Determinants , Basis , Change of Basis
+
+Eigen Vectors , Eigen Values ,
+Eigen Decomposition , Singular Value Decomposition
+
+
+-----------------------------------------------------------------
+Calculus
+Derivatives , Integrals , Partial Derivatives , Series - Taylor Series,
+Gamma Functions
+
+
+
+-----------------------------------------------------------------
+Sets
+
+-----------------------------------------------------------------
+Algorithms
