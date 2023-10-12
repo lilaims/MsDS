@@ -56,3 +56,6 @@ Dimensionality reduction is a data preparation technique performed on data prior
   >>t-distributed Stochastic Neighbor Embedding (t-SNE).
 
 Auto Encoders
+
+W+ is a concatenation of 18 different 512-dimensional w vectors, one for each layer of the StyleGAN architecture that can receive input via AdaIN.
+The Z space has 512 dimensions, the W space has 512 dimensions, the W+ space has 9216 dimensions, and the S space has 9088 dimensions.
