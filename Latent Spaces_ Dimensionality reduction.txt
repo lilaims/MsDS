@@ -2,6 +2,9 @@ Latent Space
 Dimensionality reduction
 autoencoders
 variational autoencoders
+
+Disentangled Latent Space
+Principal Component Analysis
 ```````````````````````````
 
 Latent Space
