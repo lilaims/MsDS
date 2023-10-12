@@ -59,3 +59,5 @@ Auto Encoders
 
 W+ is a concatenation of 18 different 512-dimensional w vectors, one for each layer of the StyleGAN architecture that can receive input via AdaIN.
 The Z space has 512 dimensions, the W space has 512 dimensions, the W+ space has 9216 dimensions, and the S space has 9088 dimensions.
+
+StyleGAN, arguably the most iconic GAN, is best known for its generator model which converts latent vectors into an intermediate latent space using a learned mapping network. The reason for the intermediate latent space is to enforce disentanglement. The generator draws latent vectors from this intermediate space and then applies transformations on them to encode style either by normalizing feature maps or injecting noise.
