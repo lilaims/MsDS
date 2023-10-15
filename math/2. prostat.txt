@@ -1,7 +1,15 @@
+Probability Distribution
 PDF 
 CDF
 Other parameters of scale
 --------------------------------------------
+a probability distribution is the mathematical function that gives the probabilities of occurrence of different possible outcomes for an experiment.It is a mathematical description of a random phenomenon in terms of its sample space and the probabilities of events (subsets of the sample space).
+
+A pf gives a probability, so it cannot be greater than one. A pdf f(x), however, may give a value greater than one for some values of x, since it is not the value of f(x) but the area under the curve that represents probability.
+
+
+Discrete and Continuous Probability Distribution
+
 In probability theory, a probability density function (PDF), density function, or density of an absolutely continuous random variable, is a function whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a relative likelihood that the value of the random variable would be equal to that sample.[2][3] Probability density is the probability per unit length, in other words, while the absolute likelihood for a continuous random variable to take on any particular value is 0 (since there is an infinite set of possible values to begin with), the value of the PDF at two different samples can be used to infer, in any particular draw of the random variable, how much more likely it is that the random variable would be close to one sample compared to the other sample.
 
 In a more precise sense, the PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of this variable's PDF over that range—that is, it is given by the area under the density function but above the horizontal axis and between the lowest and greatest values of the range. The probability density function is nonnegative everywhere, and the area under the entire curve is equal to 1.
