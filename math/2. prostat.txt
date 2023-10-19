@@ -1,8 +1,12 @@
+Variable vs Random Variable
 Probability Distribution
 PDF 
 CDF
 Other parameters of scale
 --------------------------------------------
+Random Varible - it has whole set of values and it can take any of those randomly.
+variable can have only one value at a time.
+
 a probability distribution is the mathematical function that gives the probabilities of occurrence of different possible outcomes for an experiment.It is a mathematical description of a random phenomenon in terms of its sample space and the probabilities of events (subsets of the sample space).
 
 A pf gives a probability, so it cannot be greater than one. A pdf f(x), however, may give a value greater than one for some values of x, since it is not the value of f(x) but the area under the curve that represents probability.
