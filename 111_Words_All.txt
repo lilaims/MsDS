@@ -102,6 +102,8 @@ Latent Space
 Dimensionality Reduction
 Autoencoders
 Variational autoencoders
+
+Autoencoder - Encoder/Decoder Networks for Transfer Learning
 ___________________________________________________________________________________________________
 Data Visualization
 Plots
