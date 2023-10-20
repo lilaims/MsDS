@@ -6,6 +6,7 @@ Bag of n words
 
 Sequence Classification - 
 Part of Speech Tagging
+Morphological Tagging
 HMM
 MEMM
 Conditional Random Fields
@@ -27,6 +28,13 @@ Maximum Entropy Markov Model - MEMM
 ---------------------
 Pretrained models, like word2vec, make it easy to get started but may lack
  domain-specific words needed for a high-accuracy text analytics application.
+
+Modalitites - visual, auditory, kinaesthetic , olfactory and gustatory
+
+
+Morphological tagging is the task of assigning labels to a sequence of tokens that describe them morphologically.
+As compared to Part-of-speech tagging, morphological tagging also considers morphological features, such as case, gender or the tense of verbs.
+
 N-gram
 coupling n words 
 
@@ -35,5 +43,3 @@ coupling n words
 Markov Chain
 Set of n states , transition probability matrix , start and end state ,
 observation , observation and liklihood
-
-visual, auditory, kinaesthetic , olfactory and gustatory
