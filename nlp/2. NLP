@@ -42,7 +42,8 @@ As compared to Part-of-speech tagging, morphological tagging also considers morp
 
 N-gram
 coupling n words 
-
+Probabilities assigned to words based on of previous word
+Predicting the next word
 
 **
 Markov Chain
