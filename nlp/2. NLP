@@ -49,7 +49,7 @@ Assigning probability
  - based on frequency of words used
  - Markov assumption 
  - chain rule of probability
- - 
+ - an intuitive way of assigning probabilities - Maximum liklihood function
 The assumption that the probability of a word depends only on the previous word is
 Markov called a Markov assumption. Markov models are the class of probabilistic models
 that assume we can predict the probability of some future unit without looking too
