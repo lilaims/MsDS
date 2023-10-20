@@ -15,7 +15,7 @@ Named Entity Recognition , Relation Extraction , Temporal Expression Extraction
 Temporal Tagger , Temporal Normalization , 
 Entity Linking
 
-
+Modalities
 
 Algorithms
 N-gram
@@ -35,3 +35,5 @@ coupling n words
 Markov Chain
 Set of n states , transition probability matrix , start and end state ,
 observation , observation and liklihood
+
+visual, auditory, kinaesthetic , olfactory and gustatory
