@@ -45,6 +45,18 @@ coupling n words
 Probabilities assigned to words based on of previous word
 Predicting the next word
 
+Assigning probability 
+ - based on frequency of words used
+ - Markov assumption 
+ - chain rule of probability
+ - 
+The assumption that the probability of a word depends only on the previous word is
+Markov called a Markov assumption. Markov models are the class of probabilistic models
+that assume we can predict the probability of some future unit without looking too
+far into the past. We can generalize the bigram (which looks one word into the past)
+n-gram to the trigram (which looks two words into the past) and thus to the n-gram (which
+looks n−1 words into the past).
+
 **
 Markov Chain
 Set of n states , transition probability matrix , start and end state ,
