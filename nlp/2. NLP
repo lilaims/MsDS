@@ -1,0 +1,37 @@
+
+Word reprn
+N-gram 
+Word2Vec
+Bag of n words
+
+Sequence Classification - 
+Part of Speech Tagging
+HMM
+MEMM
+Conditional Random Fields
+
+information Extraction - 
+Named Entity Recognition , Relation Extraction , Temporal Expression Extraction
+Temporal Tagger , Temporal Normalization , 
+Entity Linking
+
+
+
+Algorithms
+N-gram
+Hidden Markov Model - HMM
+Maximum Entropy Markov Model - MEMM
+
+
+
+---------------------
+Pretrained models, like word2vec, make it easy to get started but may lack
+ domain-specific words needed for a high-accuracy text analytics application.
+N-gram
+coupling n words 
+
+
+**
+Markov Chain
+Set of n states , transition probability matrix , start and end state ,
+observation , observation and liklihood
