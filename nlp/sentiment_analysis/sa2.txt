@@ -24,3 +24,4 @@ dividing the three regions, we adopt game-theoretic rough sets
 (GTRS) 
 
 --derivation of probabilistic rough set regions
+--strucutred probabilistic rough sets
