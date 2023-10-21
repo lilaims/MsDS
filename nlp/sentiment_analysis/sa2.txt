@@ -1,0 +1,23 @@
+
+**Note: transformers in current trend able to handle long sequences 
+are better for sentiment analysis
+---------------------
+Problem in sentiment Analysis is Classification
+Sentiments can be positive , neutral or negative
+Challenges:
+1. complexity in data pre-processing - high dimensionality
+2. uncertainty in classifying sentiment polarities
+
+high dimensionality can be reduced by part of speech tagging
+This method transforms textual data into smaller feature sets based on words’ part-of-speech category and converts each set of words to a corresponding sentiment polarity score.
+
+--high dimensionality is
+significantly reduced, and the information related to sentiment
+orientation is greatly preserved
+
+--uncertainity in sentiments
+Three-way classification has been studied and applied in various fields to
+address uncertainty in decision-making
+ In order to determine the threshold for
+dividing the three regions, we adopt game-theoretic rough sets
+(GTRS) 
