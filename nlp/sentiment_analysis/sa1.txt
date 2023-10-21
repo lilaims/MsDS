@@ -1,0 +1,62 @@
+import nltk
+from nltk import word_tokenize
+nltk.download('punkt')
+
+dependency required
+
+-----------------------
+tokenizer
+python , nltk , Spacy , Gensim , 
+
+multiword , treebank , blob
+
+learn how treebank tokenizer works
+
+**
+first divide the text between tweets and normal text , 
+or other types of text
+or based on language
+then apply individual tokenization on them.
+
+---------------------
+In natural language processing (NLP), feature extraction is a fundamental task that involves converting raw text data into a format that can be easily processed by machine learning algorithms. There are various techniques available for feature extraction in NLP, each with its own strengths and weaknesses. As a data scientist, it’s important to have a good understanding of the different feature extraction techniques available and their appropriate use cases.
+
+In this article, I will explore several common techniques for feature extraction in NLP, including CountVectorizer, TF-IDF, word embeddings, bag of words, bag of n-grams, HashingVectorizer, Latent Dirichlet Allocation (LDA), Non-negative Matrix Factorization (NMF), Principal Component Analysis (PCA), t-SNE, and Part-of-Speach (POS) tagging.
+
+Use Case
+Text Classification - 
+Large Scale Text Classfication - 
+Information Retrival - 
+Sentiment Analysis - 
+Topic Modelling - 
+Text Visualization - 
+Text Compression - 
+Content Analysis - 
+
+?Text Translation
+?Translating Speech to text
+?Translating Image to text
+
+Techniques , Main Features , Use Cases , Size and Complexity 
+Size - Based on Size of dataset
+
+Part of Speech , Principal Component Analysis , Non-negative matrix Factorization , 
+Latent Dirichlet Allocation , Hashing Vectorizer , Bag of n-grams , 
+Bag of words , Word embeddings , TF-IDF , Count Vectorizer
+
+recognizing the context, performing syntactic, semantic, lexical, and morphological analysis, creating summaries, extracting information, interpreting the senses, analyzing feelings, and even learning concepts from the processed texts
+
+different tokenization like n gram
+
+preprocessing using bigram models
+
+---------------------------------------------
+1. Preprocessing using word_token from nltk only
+2. use n gram preprocessing check optimization
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Feature Extraction for sentiment Analysis
+1. Bag of words
+2. Bag of n grams
+
+Feature Extraction using part of speech
