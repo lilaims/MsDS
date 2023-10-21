@@ -1,5 +1,6 @@
 
 **Note: transformers in current trend able to handle long sequences 
+where the context and dependencies between words play an important role
 are better for sentiment analysis
 ---------------------
 Problem in sentiment Analysis is Classification
@@ -21,3 +22,5 @@ address uncertainty in decision-making
  In order to determine the threshold for
 dividing the three regions, we adopt game-theoretic rough sets
 (GTRS) 
+
+--derivation of probabilistic rough set regions
