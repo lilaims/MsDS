@@ -1,5 +1,9 @@
 Classfiers
 MultinomialNB()
-RandomForest()
-SVM Classifier
+RandomForestClassifier()
+LinearSVC(), SVM 
+KNN
+Decision Trees
+
+Custom Paper - Game Theoretic Rough Sets(GTRS) - 
 -----------------------------------
