@@ -1,4 +1,5 @@
-Classfiers
+Classfiers - sentiment analysis
+- based on data set
 MultinomialNB()
 RandomForestClassifier()
 LinearSVC(), SVM 
