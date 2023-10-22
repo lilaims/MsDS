@@ -1,0 +1,17 @@
+Performance metrics - 
+k-fold cross-validation
+ ---------
+ Splitting the Data:
+
+Divide your dataset into k equally sized folds. For instance, if you have 1000 samples and choose k=5, each fold would contain 200 samples.
+Training and Testing:
+
+Train your NLP model k times, each time using k-1 folds for training and the remaining one fold for testing/validation.
+For each iteration, one of the k folds is used as the validation set, and the model is trained on the other k-1 folds.
+Performance Evaluation:
+
+Evaluate the model's performance on the validation set using appropriate metrics (accuracy, F1-score, etc. for classification tasks).
+Repeat this process k times, each time using a different fold as the validation set.
+Average Performance:
+
+Calculate the average performance metric across all k iterations. This average metric is a more reliable estimate of your model's performance compared to a single train/test split.
