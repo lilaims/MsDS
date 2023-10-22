@@ -1,0 +1,18 @@
+-------------------
+convert tokens (words) into a feature vector using BoW and TF-IDF 
+
+To get feature vectors
+-Dictionary , corpus o
+
+from sklearn.feature_extraction.text import CountVectorizer
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(corpus)
+analyze = vectorizer.build_analyzer()
+vectorizer.get_feature_names_out()
+
+////
+bigram_vectorizer = CountVectorizer(ngram_range=(1, 2),
+...                                     token_pattern=r'\b\w+\b', min_df=1)
+analyze = bigram_vectorizer.build_analyzer()
+vectorizer.get_feature_names_out()
+
