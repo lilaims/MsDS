@@ -1,5 +1,17 @@
 OLAP, OLTP
    Analytical , Transactional Storage Systems
+   - SQL Based Schemas
+
+GCP - Bigtable is neither OLAP (online analytical processing) or OLTP (online transaction processing)—both of which are SQL-based systems.
+Bigtable is a NoSQL database. BigQuery is Google's OLAP offering.
+Cube 
+Star Schemas
+Working
+Types - MOLAP , ROLAP , HOLAP
+Architecture
+=======================================================
+
+
 
 OLAP - cube technology
     - uses the hypercube concept
@@ -14,3 +26,26 @@ OLAP - cube technology
 OLAP data is typically stored in a star schema or snowflake schema in a relational data 
 warehouse or in a special-purpose data management system. Measures are derived from the
 records in the fact table and dimensions are derived from the dimension tables.
+
+Working 
+ 1. The OLAP server collects data from multiple data sources, including relational databases and data warehouses.
+ 2. Then, the extract, transform, and load (ETL) tools clean, aggregate, precalculate, and store data in an OLAP cube according to the number of dimensions specified.
+ 3. Business analysts use OLAP tools to query and generate reports from the multidimensional data in the OLAP cube.
+ 4. OLAP uses Multidimensional Expressions (MDX) to query the OLAP cube. MDX is a query, like SQL, that provides a set of instructions for manipulating databases.
+
+Architecture
+Data Warehouse , ETL , OLAP Server , OLAP Database , OLAP cubes ,
+OLAP Analytic Tools
+
+
+
+
+Types
+MOLAP
+Multidimensional online analytical processing (MOLAP) involves creating a data cube that represents multidimensional data from a data warehouse. The MOLAP system stores precalculated data in the hypercube. Data engineers use MOLAP because this type of OLAP technology provides fast analysis. 
+
+ROLAP
+Instead of using a data cube, relational online analytical processing (ROLAP) allows data engineers to perform multidimensional data analysis on a relational database. In other words, data engineers use SQL queries to search for and retrieve specific information based on the required dimensions. ROLAP is suitable for analyzing extensive and detailed data. However, ROLAP has slow query performance compared to MOLAP. 
+
+HOLAP
+Hybrid online analytical processing (HOLAP) combines MOLAP and ROLAP to provide the best of both architectures. HOLAP allows data engineers to quickly retrieve analytical results from a data cube and extract detailed information from relational databases. 
