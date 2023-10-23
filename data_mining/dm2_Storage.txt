@@ -9,6 +9,7 @@ Star Schemas
 Working
 Types - MOLAP , ROLAP , HOLAP
 Architecture
+Operations 
 
 ?OLAP vs noSQL for large scale analytical processing
 ?noSQL
@@ -52,3 +53,8 @@ Instead of using a data cube, relational online analytical processing (ROLAP) al
 
 HOLAP
 Hybrid online analytical processing (HOLAP) combines MOLAP and ROLAP to provide the best of both architectures. HOLAP allows data engineers to quickly retrieve analytical results from a data cube and extract detailed information from relational databases. 
+
+Operations
+Slice , Dice , Drill Down, Up
+Roll up
+Pivot
