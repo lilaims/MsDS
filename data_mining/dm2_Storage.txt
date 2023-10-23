@@ -11,7 +11,7 @@ Types - MOLAP , ROLAP , HOLAP
 Architecture
 Operations 
 
-?OLAP vs noSQL for large scale analytical processing
+?OLAP vs noSQL(Scalability, Unstructured schema) for large scale analytical processing
 ?noSQL
 =======================================================
 
@@ -58,3 +58,21 @@ Operations
 Slice , Dice , Drill Down, Up
 Roll up
 Pivot
+
+Use OLAP When:
+
+Your data is primarily structured and fits well into a relational schema.
+Data accuracy, consistency, and integrity are crucial for your application.
+You need complex analytical capabilities, ad-hoc querying, and reporting on well-defined, structured data.
+Use NoSQL When:
+
+Your data is unstructured, semi-structured, or rapidly evolving.
+You require horizontal scalability to handle massive volumes of data and high read/write throughput.
+Schema flexibility is essential for accommodating changing data requirements.
+Cost-efficiency and the ability to scale on commodity hardware are significant considerations.
+In some scenarios, hybrid approaches are also employed, where both OLAP and NoSQL databases are used in conjunction to leverage the strengths of each technology for different aspects of the analytical processing pipeline. The choice ultimately depends on the specific requirements and nature of your data and analytical workloads.
+
+
+
+
+
