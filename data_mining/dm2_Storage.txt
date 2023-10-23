@@ -13,6 +13,10 @@ Operations
 
 ?OLAP vs noSQL(Scalability, Unstructured schema) for large scale analytical processing
 ?noSQL
+?OLAP vs OLTP
+
+OLTP is great for handling and storing multiple streams of transactions in databases. However, it cannot perform complex queries from the database. Therefore, business analysts use an OLAP system to analyze multidimensional data. For example, data scientists connect an OLTP database to a cloud-based OLAP cube to perform compute-intensive queries on historical data.
+
 =======================================================
 
 
