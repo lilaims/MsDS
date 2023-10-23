@@ -1,0 +1,10 @@
+OLAP, OLTP
+   Analytical , Transactional Storage Systems
+
+OLAP - cube technology
+    - uses the hypercube concept
+    - http://cubes.databrewery.org/
+- ligthweight olap http server
+-Cube is a shorthand for multidimensional dataset, given that data can have an arbitrary number of dimensions.
+  The term hypercube is sometimes used, especially for data with more than three dimensions. 
+    A cube is not a "cube" in the strict mathematical sense, as the sides are not all necessarily equal. 
