@@ -5,7 +5,7 @@ OLAP vs KQL- Kusto Query Language
 Large Scale Analytics - 
 Historical , Live Streaming
 Structured , Unstructured , Semi Structured
-Cube , 
+Cube , Columnar Storage
 SQL , noSQL
 -------------------------------------
 KQL: KQL operates on semi-structured and structured data, 
