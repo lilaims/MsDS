@@ -2,6 +2,11 @@ Data Lakes
 Data warehouse
 OLAP vs KQL- Kusto Query Language
 
+Large Scale Analytics - 
+Historical , Live Streaming
+Structured , Unstructured , Semi Structured
+Cube , 
+SQL , noSQL
 -------------------------------------
 KQL: KQL operates on semi-structured and structured data, 
 allowing users to query and analyze large volumes of data stored in Azure Data Explorer 
