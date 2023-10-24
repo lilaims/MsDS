@@ -7,6 +7,11 @@ Historical , Live Streaming
 Structured , Unstructured , Semi Structured
 Cube , Columnar Storage
 SQL , noSQL
+OLAP, KQL
+OLAP, Redshift
+The choice between columnar storage and cubes depends on the specific requirements of the application. 
+Columnar storage is more suitable for modern data analytics, especially in big data scenarios,
+while multidimensional cubes are still widely used in traditional business intelligence and reporting environments.
 -------------------------------------
 KQL: KQL operates on semi-structured and structured data, 
 allowing users to query and analyze large volumes of data stored in Azure Data Explorer 
