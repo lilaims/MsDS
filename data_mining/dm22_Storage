@@ -1,0 +1,13 @@
+Data Lakes
+Data warehouse
+OLAP vs KQL- Kusto Query Language
+
+-------------------------------------
+KQL: KQL operates on semi-structured and structured data, 
+allowing users to query and analyze large volumes of data stored in Azure Data Explorer 
+or Azure Log Analytics. It's particularly well-suited for analyzing log and telemetry data,
+  time-series data, and other types of big data.
+
+OLAP: OLAP systems typically use a multidimensional data model (cube) that organizes data
+  into dimensions (categories) and measures (numeric values). Users can perform complex 
+  multidimensional analyses such as drill-down, roll-up, slice, and dice operations on this data model.
