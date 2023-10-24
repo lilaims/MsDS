@@ -4,6 +4,9 @@ OLAP, OLTP
 
 GCP - Bigtable is neither OLAP (online analytical processing) or OLTP (online transaction processing)—both of which are SQL-based systems.
 Bigtable is a NoSQL database. BigQuery is Google's OLAP offering.
+
+ **This is because OLAP databases are optimized for heavy read, low write workloads.
+
 Cube 
 Star Schemas
 Working
