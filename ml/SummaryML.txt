@@ -9,6 +9,7 @@
  - Discriminant Analysis - (Linear , Quadratic)(seperate 2 or more grps)
 
 3. Quality metrics
+ Cost
  Regression 
   - Mean Squared Error , Root mean squared error , Mean Absolute Error
  Classification
