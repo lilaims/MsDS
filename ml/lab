@@ -1,0 +1,51 @@
+
+
+Lab 5 --
+Linear Classifiers -linear classifiers, which produce decision regions separated by linear boundaries. 
+We will then use the logistic function to create a notion of classifier "certainty", 
+which then we will use to define the logistic regression classifier. 
+We will finally implement two optimisation approaches to identify the logistic regression solution, 
+namely exhaustive search and gradient descent.
+
+# Linear classifiers
+
+Linear classifiers partition the predictor space into decision regions separated by linear boundaries (e.g. straight lines). Let's illustrate linear classifiers using **a binary classifier** (two classes) in a **2D predictor space**.
+
+Let $x_1$ and $x_2$ be the predictors. A linear boundary in the predictor space is defined by the equation:
+
+$w_0 + w_1 x_1 + w_2 x_2 =0$,
+
+where $w_0$, $w_1$ and $w_2$ are the coefficients of the classifier.
+
+Using **vector notation** (this is much more convenient), we create the **extended predictor vector** $\boldsymbol{x} = [1, x_1, x_2]^T$ and the **coefficients vector** $\boldsymbol{w} = [w_0, w_1, w_2]^T$, and use them to express the linear boundary by the equivalent equation
+
+$\boldsymbol{x}^T \boldsymbol{w} = 0$.
+
+If you do not understand why the two previous equations are equivalent, please **revise the material on basic mathematical notation and matrix algebra now**.
+
+>>w0+w1*x1+w2*x2 = 0
+boundary region the values can be greater than 0 or less than 0.
+Binary Classfier > 0 
+
+from scipy.special import expit
+expit(np.dot(X, w))
+certainty_0 = 1-p(X, w)
+
+In addition to computing the classifer's certainty for each individual sample, we can also do it for an entire dataset by simply multiplying the individual certainties. The resulting quantity  L  is known as the likelihood:
+The negative log-likelihood is a more convenient way to quantify the classifier's certainty:
+
+# Returns the predicted labels
+def prediction(X, w):
+  return 1*(np.dot(X, w) > 0)
+
+# Computes the likelihood
+def likelihood(X, w, y):
+  return np.prod(y*p(X, w) + (1-y)*(1-p(X, w)))
+
+# Computes the negative log-likelihood
+def negLogLikelihood(X, w, y):
+  return -np.sum(y * np.log(p(X,w)) + (1 - y) * np.log(1 - p(X,w)))
+
+# Computes the accuracy by comparing true labels y and predicted labels yP
+def accuracy(y, yP):
+  return np.sum(y==yP)/len(y)
