@@ -1,0 +1,10 @@
+Regression
+ - Linear , Logistic , Lasso , Ridge ,
+   Multiple Linear , Polynomial , Normal , 
+   Stepwise , Bayesian Linear , Partial Least Squared
+
+Classification
+ - Bayes
+ - Posterior Probability
+ - Discriminant Analysis - (Linear , Quadratic)(seperate 2 or more grps)
+----------------------------------------------------
