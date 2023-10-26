@@ -7,4 +7,12 @@ Classification
  - Bayes
  - Posterior Probability
  - Discriminant Analysis - (Linear , Quadratic)(seperate 2 or more grps)
+
+Quality metrics
+ Regression 
+  - Mean Squared Error , Root mean squared error , Mean Absolute Error
+ Classification
+ - Accuracy , Confusion Matrix , 
+   log loss , AUC-ROC (Area under - receiver operating characteristic)
+ -Precision , Recall 
 ----------------------------------------------------
