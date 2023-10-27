@@ -18,6 +18,5 @@
  -Precision , Recall 
 
 4. Optimization
-
-
+ - Gradient Descent
 ---------------------------------------------------
