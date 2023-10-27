@@ -15,3 +15,11 @@ idf(t,D) = log (N/D)
 scikit
 tf with with countVectorizer()
 tf-idf with tfidfVectorizer()
+
+
+Unigram , bigram are features , 
+anything quantifiable becomes a feature 
+like how many punctuation marks
+
+Combining Features
+different ranges
