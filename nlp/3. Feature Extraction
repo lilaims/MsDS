@@ -1,0 +1,17 @@
+Bag of Words
+TF IDF
+
+-------------------------
+TF-IDF - Term Frequency , Inverse Document Frequency
+keyword will be more important if its frequent ina document and infrequent in a dataset
+Vectorising inputs according to features
+characterise each document as a list of feature value pairs
+1. Term frequencies / One hot vector
+relative frequency of term t within document d, 
+tfidf(t,d,D) = tf(t,d) . idf(t,D)
+
+idf(t,D) = log (N/D)
+
+scikit
+tf with with countVectorizer()
+tf-idf with tfidfVectorizer()
