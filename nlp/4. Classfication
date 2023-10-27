@@ -1,0 +1,4 @@
+---------------------------------
+Classification = Weights Vector * Feature Vector
+Naiive Bayes - Based on liklihood of a word
+Svm - Discriminative model
