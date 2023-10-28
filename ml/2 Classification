@@ -1,4 +1,28 @@
 Naive Bayes
 
 Support Vector machines
+
+Activation Functions
+
+maximum likelihood estimation
+negative log likelihood minimization
+
+Loss
+Cross Entropy Loss , NLL Loss
 ---------------------------
+
+Activation Functions - transform the summed weighted input from the node
+
+
+Maximum Likelihood Estimation
+y theta,i = sigma(f_theta(i))
+sigma is the activation function
+sigma(z) = 1 / 1+exp(-z)
+
+likelihood = P(D|theta) = prod i to n (y_theta^y_i(1-y_theta)^1-y_i)
+the main objective is to find \theta that maximizes the likelihood of observing the data
+
+Negative Log Liklihood - 
+sum up the correct entries that encode log probabilities
+
+log P(D|theta) = prod i to n (y_i * Log y_theta + (1-y_i) * Log 1-y_theta)
