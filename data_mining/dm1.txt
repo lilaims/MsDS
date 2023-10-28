@@ -1,1 +1,15 @@
+Data Similarity
+Distances
+Minkowski
+Manhattan
+Euclidean
 
+Noise Smoothing
+Binning
+
+Pearsons Coefficient
+___________________________________
+
+Pearsons Coefficient :
+statistic that measures the strength and direction of the linear relationship between two variables X, Y
+r = -1 , 1 , 0  =correlation
