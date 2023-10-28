@@ -1,19 +1,29 @@
+Classification
+Binary Classification - o/p 0 or 1
+Multiclass Classification
+
 Naive Bayes
 
 Support Vector machines
 
 Activation Functions
 
+Loss
+Cross Entropy Loss , (negative log likelihood)NLL Loss
 maximum likelihood estimation
 negative log likelihood minimization
 
-Loss
-Cross Entropy Loss , NLL Loss
 ---------------------------
 
 Activation Functions - transform the summed weighted input from the node
 
+____________________________________________
+Cross Entropy 
+In the discrete setting, given two probability distributions p and q, their cross-entropy is defined as
+ = p log q
 
+
+_____________________________________________
 Maximum Likelihood Estimation
 y theta,i = sigma(f_theta(i))
 sigma is the activation function
@@ -26,3 +36,22 @@ Negative Log Liklihood -
 sum up the correct entries that encode log probabilities
 
 log P(D|theta) = prod i to n (y_i * Log y_theta + (1-y_i) * Log 1-y_theta)
+
+For Binary Classification y_i is the output so the value is 0 or 1.
+
+y_hat_i: the predicted probability of the ith data point being positive
+(1-y_hat_i): the predicted probability of the ith data point being negative
+
+Summing up the correct entries (binary case)
+The following animation further illustrates this idea of picking the correct entries to sum. It consists of the following steps:
+
+Start with predicted probabilities for the positive class (y_hat). If we were given raw prediction values, apply sigmoid to make it a probability.
+Compute the probabilities for the negative class (1-y_hat).
+Compute the log probabilities.
+Summing up the log probabilities associated with the true labels.
+
+Given the rewritten log-likelihood above, it is tempting to directly apply it to the multiclass (with C classes) setting,
+where y now takes value from 0 up to C-1. This almost works out except that we need to make sure y_hat_i defines a probability distribution, namely, 1)
+it is bounded between zero and one, and 2) the distribution sums up to 1. In the binary setting,
+these two conditions were taken care of by the sigmoid activation and an implicit assumption that 
+“not positive means negative.”
