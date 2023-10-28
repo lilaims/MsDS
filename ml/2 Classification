@@ -10,6 +10,7 @@ Loss
 Cross Entropy Loss , (negative log likelihood)NLL Loss
 maximum likelihood estimation
 negative log likelihood minimization
+BCE Loss
 
 Activation Functions - for the above loss, based on binary and multiclass
 Sigmoid
@@ -71,3 +72,14 @@ It turns out that the softmax function is what we are after
 Starting with predicted values (not yet the probabilities) z.
 Transform the values into class probabilities (y_hat) using softmax and then take the log probabilities (log y_hat).
 Summing up the log probabilities associated with the true labels.
+
+Use BCELoss and BCEWithLogitsLoss when
+Both h and y are one-dimensional, and y takes either zero or one.
+
+Use BCELoss if h is the probability of a data point being positive.
+Use BCEWithLogits if h is the logits, i.e., you want to use the sigmoid function to activate your raw prediction values into a probability.
+Use NLLLoss and CrossEntropyLoss when
+h is two-dimensional and y is one-dimensional, taking values of zero up to C-1 with C classes.
+
+Use NLLLoss if h encodes log-likelihood (it essentially performs the masking step followed by mean reduction).
+Use CrossEntropyLoss if h encodes raw prediction values that need to be activated using the softmax function.
