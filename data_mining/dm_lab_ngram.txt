@@ -1,0 +1,28 @@
+unigram 
+bigram
+n-gram
+---------------------------------------------
+
+unigram - one word , bigram - 2 words , n-gram - n-words coupled together
+Count of each word in corpus
+Perplexity - The perplexity measures the amount of “randomness” in our model. 
+  the perplexity is 3 (per word) then that means the model had a 1-in-3 chance of guessing (on average) 
+  the next word in the text. 
+Cross Entropy
+
+Perplexity - 2 * Cross Entropy
+  
+from collections import Counter
+from math import log
+
+def tokenize_sentence(sentence, order):
+    """Returns a list of tokens with the correct numbers of initial
+    and end tags (this is meant ot be used with a non-backoff model!!!)
+    
+    :sentence: a string of text
+    :param: order is the order of the language model
+        (1 = unigram, 2 = bigram, 3 =trigram etc.)
+    """
+    tokens = sentence.split()
+    tokens = ['<s>'] * (order-1) + tokens + ['</s>']
+    return tokens
