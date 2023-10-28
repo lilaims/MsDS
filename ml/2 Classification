@@ -6,14 +6,24 @@ Naive Bayes
 
 Support Vector machines
 
-Activation Functions
-
 Loss
 Cross Entropy Loss , (negative log likelihood)NLL Loss
 maximum likelihood estimation
 negative log likelihood minimization
 
+Activation Functions - for the above loss, based on binary and multiclass
+Sigmoid
+Softmax
+
 ---------------------------
+
+
+
+
+Steps - 
+Based on a model output labels are predicted binary or multiclass
+based on labels log of labels is calculated , which is log predicted probabilities
+using this loss is calculated (nll or cross entropy)
 
 Activation Functions - transform the summed weighted input from the node
 
@@ -55,3 +65,9 @@ where y now takes value from 0 up to C-1. This almost works out except that we n
 it is bounded between zero and one, and 2) the distribution sums up to 1. In the binary setting,
 these two conditions were taken care of by the sigmoid activation and an implicit assumption that 
 “not positive means negative.”
+
+It turns out that the softmax function is what we are after
+
+Starting with predicted values (not yet the probabilities) z.
+Transform the values into class probabilities (y_hat) using softmax and then take the log probabilities (log y_hat).
+Summing up the log probabilities associated with the true labels.
