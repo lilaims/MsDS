@@ -1,6 +1,15 @@
 unigram 
 bigram
 n-gram
+
+Perplexity
+Cross Entropy
+
+Maximum Likelihood Estimation
+Negative Log Likelihood Loss - also used for calculating cross entropy
+Cross Entropy - also used for calculating Perplexity
+Perplexity
+
 ---------------------------------------------
 
 unigram - one word , bigram - 2 words , n-gram - n-words coupled together
@@ -8,10 +17,16 @@ Count of each word in corpus
 Perplexity - The perplexity measures the amount of “randomness” in our model. 
   the perplexity is 3 (per word) then that means the model had a 1-in-3 chance of guessing (on average) 
   the next word in the text. 
-Cross Entropy
+quality of language model
+low perplexity better at predicting model 
 
-Perplexity - 2 * Cross Entropy
-  
+Cross Entropy - 
+
+
+Cross Entropy = total neg log probs/length
+Perplexity = 2 * Cross Entropy
+
+__________________________________________________
 from collections import Counter
 from math import log
 
