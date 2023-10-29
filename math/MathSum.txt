@@ -11,6 +11,11 @@ Principal Component Analysis
 
 Statistical Inference - Problems of Estimation , tests of hypothesis
 
+Minkowski Distance , Manhattan Distance , Euclidean Distance
+Pearsons Correlation 
+
+Convolutions, Laplace Transformations, and Multivariate Optimisation
+
 ---------------------------------------------------------------
 Linear Algebra
 Scalar , Vector , Matrices , Tensors , Determinants , Basis , Change of Basis
