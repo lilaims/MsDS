@@ -6,19 +6,39 @@ Naive Bayes
 
 Support Vector machines
 
-Loss
-Cross Entropy Loss , (negative log likelihood)NLL Loss
-maximum likelihood estimation
-negative log likelihood minimization
-BCE Loss
+-Optimization
+  Logistic Regression
 
-Activation Functions - for the above loss, based on binary and multiclass
-Sigmoid
-Softmax
+-Loss
+  Cross Entropy Loss , (negative log likelihood)NLL Loss
+  maximum likelihood estimation
+  negative log likelihood minimization
+  BCE Loss
+
+-Activation Functions - for the above loss, based on binary and multiclass
+  Sigmoid
+  Softmax
 
 ---------------------------
 
+Story -
+Linear Classifiers can be binary or multiclass
+w1*1+w2*x1+w3*x2+w4*x3...=0        balance of equation on both sides
+dot product of w and x [w][x]= y predicted labels
+y actual labels
 
+calculate likelihood to see how well the parameters predict the data
+calculate negative log likelihood
+calculate the accuracy to check the correct predictions
+calculate the error rate to see the wrong predictions
+
+Optimization 
+Optimize the model to get better performance parameters
+increase likelihood , accuracy  , decrease the error rate
+
+Logistic Regression - Exhaustive Search , Gradient Descent
+Optimization strategy
+Logistic "regression" classifiers use the likelihood function  L  as the objective function. 
 
 
 Steps - 
