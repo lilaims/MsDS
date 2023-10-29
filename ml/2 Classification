@@ -1,9 +1,9 @@
 Classification
 Binary Classification - o/p 0 or 1
 Multiclass Classification
-
+K Nearest Neighbhours (KNN)
 Naive Bayes
-
+Random Forest
 Support Vector machines
 
 -Optimization
@@ -103,3 +103,8 @@ h is two-dimensional and y is one-dimensional, taking values of zero up to C-1 w
 
 Use NLLLoss if h encodes log-likelihood (it essentially performs the masking step followed by mean reduction).
 Use CrossEntropyLoss if h encodes raw prediction values that need to be activated using the softmax function.
+
+___________________________________________________________________
+
+K nearest Neighbhours
+
