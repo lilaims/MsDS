@@ -16,6 +16,10 @@ Pearsons Correlation
 
 Convolutions, Laplace Transformations, and Multivariate Optimisation
 
+Maximum Likelihood Estimation
+Negative Log Likelihood
+
+
 ---------------------------------------------------------------
 Linear Algebra
 Scalar , Vector , Matrices , Tensors , Determinants , Basis , Change of Basis
