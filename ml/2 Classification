@@ -113,4 +113,19 @@ k can make the algorithm sensitive to noise, while a large
 k can make the algorithm less sensitive to local patterns
 
 KNN is sensitive to the scale of features. Therefore, it's often essential to scale the data before applying KNN.
+1. The first step in KNN is to define a distance metric that measures the similarity or dissimilarity between data points
+2. The KNN algorithm requires a labeled dataset, where each data point is associated with a class label (for classification) or a 
+numerical value (for regression). This dataset is used to find the k-nearest neighbors for a given test sample.
+3. k is the number of neighbors
 
+Prediction for Classification:
+
+To classify a new data point, the algorithm computes the distance between this point and all data points in the training dataset.
+It then selects the k data points with the smallest distances (nearest neighbors).
+These k data points "vote" for the class label of the new data point.
+The class label with the most votes among the k neighbors is assigned to the new data point.
+Prediction for Regression:
+
+For regression tasks, the algorithm follows a similar process to classify a new data point.
+Instead of voting, it calculates the average (or weighted average) of the target values of the k nearest neighbors.
+This average is used as the prediction for the new data point.
