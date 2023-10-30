@@ -108,5 +108,7 @@ Use CrossEntropyLoss if h encodes raw prediction values that need to be activate
 
 ___________________________________________________________________
 
-K nearest Neighbhours
+K nearest Neighbhours - A small 
+k can make the algorithm sensitive to noise, while a large 
+k can make the algorithm less sensitive to local patterns
 
