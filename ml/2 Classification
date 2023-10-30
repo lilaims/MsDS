@@ -112,3 +112,5 @@ K nearest Neighbhours - A small
 k can make the algorithm sensitive to noise, while a large 
 k can make the algorithm less sensitive to local patterns
 
+KNN is sensitive to the scale of features. Therefore, it's often essential to scale the data before applying KNN.
+
