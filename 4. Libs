@@ -1,0 +1,9 @@
+sklearn
+numpy
+pandas
+matplotlib
+
+----------------------------------
+sklearn
+SVM , Kneighbors classifier , GridSearchCV
+
