@@ -1,5 +1,16 @@
 Clustering
 K Means
+Heirarchical
+Density-Based Spatial Clustering of Applications with Noise
+Mean Shift Clustering
+Gaussian Mixture Models
+Fuzzy Clustering
+Spectral 
+Aglomerative
+Self-Organizing Maps (SOM)
 ---------------------------
+Clustering - group similar data points together based on certain features or characteristics
+choice of clustering algorithm depends on the specific characteristics of the data and the goals of the analysis
+
 Choose the number of clusters (k).
 Randomly initialize k cluster centroids in the data space.
