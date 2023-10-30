@@ -129,3 +129,6 @@ Prediction for Regression:
 For regression tasks, the algorithm follows a similar process to classify a new data point.
 Instead of voting, it calculates the average (or weighted average) of the target values of the k nearest neighbors.
 This average is used as the prediction for the new data point.
+
+Hyperparameter Tuning: Choosing the right distance metric and the value of k is critical for the algorithm's performance. 
+This is often done through cross-validation or other hyperparameter tuning techniques.
