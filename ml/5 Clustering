@@ -1,3 +1,5 @@
 Clustering
 K Means
 ---------------------------
+Choose the number of clusters (k).
+Randomly initialize k cluster centroids in the data space.
