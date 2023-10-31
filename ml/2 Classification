@@ -2,6 +2,7 @@ Classification
 [Linear , Non Linear] , [Binary , MultiClass]
 
 K Nearest Neighbhours (KNN)
+Logistic Regression
 Naive Bayes
 Random Forest
 Support Vector machines
