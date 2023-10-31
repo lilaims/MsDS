@@ -1,0 +1,11 @@
+Reinforcement Learning
+Agent 
+Environment
+
+Reward
+State
+Action
+
+Discount Factor
+Maximising 
+-----------------------------------------
