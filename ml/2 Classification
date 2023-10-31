@@ -134,3 +134,13 @@ This average is used as the prediction for the new data point.
 
 Hyperparameter Tuning: Choosing the right distance metric and the value of k is critical for the algorithm's performance. 
 This is often done through cross-validation or other hyperparameter tuning techniques.
+
+____________________________________________________
+Number of samples of class 0 in the new training dataset: 25
+Number of samples of class 1 in the new training dataset: 25
+Number of samples of class 2 in the new training dataset: 5
+
+
+Number of samples of class 0 in the new validation dataset: 25
+Number of samples of class 1 in the new validation dataset: 25
+Number of samples of class 2 in the new validation dataset: 5
