@@ -1,6 +1,5 @@
 Classification
-Binary Classification - o/p 0 or 1
-Multiclass Classification
+[Linear , Non Linear] , [Binary , MultiClass]
 
 K Nearest Neighbhours (KNN)
 Naive Bayes
