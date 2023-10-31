@@ -1,5 +1,6 @@
 Classification
-[Linear , Non Linear] , [Binary , MultiClass]
+[Linear , Non Linear] , [Binary , MultiClass] , [Probabilistics , Imbalance class]
+[Large Data Sets , Small Data sets] , [High Dimensions , Low Dimensions]
 
 K Nearest Neighbhours (KNN)
 Logistic Regression
