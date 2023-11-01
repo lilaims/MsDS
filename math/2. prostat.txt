@@ -3,6 +3,13 @@ Probability Distribution
 PDF 
 CDF
 Other parameters of scale
+
+Law of Large Numbers
+Monte Carlo Integration
+Central Limit Theorem 
+Itertive Logarithms
+
+Estimators
 --------------------------------------------
 Random Varible - it has whole set of values and it can take any of those randomly.
 variable can have only one value at a time.
@@ -36,3 +43,18 @@ A distribution has a density function if and only if its cumulative distribution
 
 ******
 -----------------------------
+Law of Large Numbers - Strong & weak Law
+ behavior of sample averages or means as the size of the sample increases
+
+Strong Law
+with probability 1, the sample mean converges almost surely to the true mean as the sample size increases.
+the sample average almost surely equals the population mean as the sample size approaches infinity
+
+Weak Law
+as you take more samples and calculate their average, that average gets closer to the true mean of the entire population
+sample mean of a sequence of independent and identically distributed random variables converges in probability to the expected value (mean) of the distribution as the sample size increases
+
+
+Monte carlo Integration
+
+Central Limit Theorem
