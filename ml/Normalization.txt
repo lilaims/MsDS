@@ -1,0 +1,12 @@
+Normalization
+Original Space to destination space
+ - Scaling , Rotations, Transformation of dimensional Spaces
+ - Linear , Non Linear Transformations
+
+Dimensionality Reduction
+
+polynomial , exponential , sigmoid , 
+trignometric , logarithmic , Piecewise
+
+
+-----------------------------------------
