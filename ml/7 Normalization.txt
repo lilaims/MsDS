@@ -8,5 +8,6 @@ Dimensionality Reduction
 polynomial , exponential , sigmoid , 
 trignometric , logarithmic , Piecewise
 
+Piecewise - Step functions , Conditional Functions
 
 -----------------------------------------
