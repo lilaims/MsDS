@@ -11,3 +11,18 @@ Document -> Content Selection -> Information Ordering -> Sentence Realization ->
 
 Content Selection - Classification  - supervised (Naive Bayes , Maximum Entropy Classifier) 
                                    / Unsupervised (tf-idf for saliency , centrality score)
+
+Feature Extraction 
+- Ordering of sentences (Rhetorical Structure Theory) 
+
+Multi Document Summarization
+ - based on the same story
+ - usually unsupervised , challenge is to get rid of redundancy
+ - redundancy removal - maximal marginal relevance
+ - cannot keep original order accross documents
+ - chronological ordering with time , 
+ - parsing and dependencies - open research problem
+
+Evaluation of text summarization
+ - extrinsic , intrinsic
+ - answering a set of key questions
