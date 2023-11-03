@@ -26,3 +26,4 @@ Multi Document Summarization
 Evaluation of text summarization
  - extrinsic , intrinsic
  - answering a set of key questions
+ - Recall-Oriented Understudy for Gisting Evaluation (ROUGE)
