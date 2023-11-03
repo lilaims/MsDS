@@ -5,3 +5,9 @@ Text Summarization
 
 
  -------------------------------------------
+Single Doc Summarization
+
+Document -> Content Selection -> Information Ordering -> Sentence Realization -> Summary
+
+Content Selection - Classification  - supervised (Naive Bayes , Maximum Entropy Classifier) 
+                                   / Unsupervised (tf-idf for saliency , centrality score)
