@@ -8,3 +8,5 @@ Neural Network
 Input -> Input Embedding -> Encoder -> Decoder -> Output Embedding -> Output
 
 Encoder -> Attention -> Feed Forward Neural Network
+
+Attention - [Query,Key,Value] Vectors
