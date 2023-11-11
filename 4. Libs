@@ -4,6 +4,7 @@ pandas
 matplotlib
 
 Streamz 
+hvplot.streamz
 ----------------------------------
 sklearn
 SVM , Kneighbors classifier , GridSearchCV
