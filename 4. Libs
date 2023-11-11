@@ -5,6 +5,8 @@ matplotlib
 
 Streamz 
 hvplot.streamz
+Vector Search
+Vertex AI
 ----------------------------------
 sklearn
 SVM , Kneighbors classifier , GridSearchCV
