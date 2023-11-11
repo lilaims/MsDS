@@ -9,6 +9,8 @@ Neural Network
 
 Prompt Design
 Prompt Engineering
+
+Large Language Models - [Generic , Instruction tuned , Dialog Tuned]
 ----------------------
 Input -> Input Embedding -> Encoder -> Decoder -> Output Embedding -> Output
 
