@@ -10,3 +10,6 @@ Input -> Input Embedding -> Encoder -> Decoder -> Output Embedding -> Output
 Encoder -> Attention -> Feed Forward Neural Network
 
 Attention - [Query,Key,Value] Vectors
+
+Q- [3*3] , Key - [3*3] , Value- [3*3]
+Z = Softmax[(Q*K_T)/sqrt(dk)] V
