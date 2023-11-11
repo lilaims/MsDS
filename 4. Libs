@@ -9,4 +9,5 @@ sklearn
 SVM , Kneighbors classifier , GridSearchCV
 
 Streamz python lib - for streaming data
-
+streaming pandas based data frames
+tornado , kafka , cuda , dask , influx
