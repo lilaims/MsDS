@@ -14,3 +14,5 @@ Attention - [Query,Key,Value] Vectors
 [X*Wq]=Q,[X*Wk]=K,[X*Wv]=V
 Q- [3*3] , Key - [3*3] , Value- [3*3]
 Z = Softmax[(Q*K_T)/sqrt(dk)] V
+
+Concatenate Z matrices
