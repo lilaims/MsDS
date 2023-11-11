@@ -7,6 +7,8 @@ Encoder Decoder
 
 Neural Network
 
+Prompt Design
+Prompt Engineering
 ----------------------
 Input -> Input Embedding -> Encoder -> Decoder -> Output Embedding -> Output
 
