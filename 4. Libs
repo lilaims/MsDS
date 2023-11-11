@@ -3,7 +3,10 @@ numpy
 pandas
 matplotlib
 
+Streamz 
 ----------------------------------
 sklearn
 SVM , Kneighbors classifier , GridSearchCV
+
+Streamz python lib - for streaming data
 
