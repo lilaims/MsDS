@@ -18,7 +18,25 @@ a probability distribution is the mathematical function that gives the probabili
 
 A pf gives a probability, so it cannot be greater than one. A pdf f(x), however, may give a value greater than one for some values of x, since it is not the value of f(x) but the area under the curve that represents probability.
 
+The term "likelihood" is often used in a slightly different context when discussing probability mass functions (PMFs) and probability density functions (PDFs).
 
+In statistics:
+
+1. **Probability Mass Function (PMF):**
+   - For a discrete random variable, the PMF gives the probability that the random variable takes on a specific value.
+   - The term "probability mass" is used because, for discrete variables, the probability is concentrated at specific points.
+   - The likelihood of a specific outcome is given by the probability assigned to that particular value by the PMF.
+
+   For example, in the context of rolling a fair six-sided die, the likelihood of getting a 3 is given by the probability mass assigned to the value 3 in the PMF.
+
+2. **Probability Density Function (PDF):**
+   - For a continuous random variable, the PDF gives the likelihood of the variable falling within a particular interval.
+   - The term "density" is used because, for continuous variables, probability is spread over intervals rather than concentrated at specific points.
+   - The likelihood of a range of values is given by the area under the curve of the PDF over that range.
+
+   For example, in the context of a standard normal distribution, the likelihood of the variable falling within a certain range is given by the integral of the PDF over that range.
+
+In summary, while the specific term "likelihood" is more commonly associated with probabilities in the context of likelihood functions in statistical inference, the concept of likelihood is inherent in both PMFs and PDFs. In the discrete case, the likelihood is associated with specific values, and in the continuous case, it's associated with intervals.
 Discrete and Continuous Probability Distribution
 
 In probability theory, a probability density function (PDF), density function, or density of an absolutely continuous random variable, is a function whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a relative likelihood that the value of the random variable would be equal to that sample.[2][3] Probability density is the probability per unit length, in other words, while the absolute likelihood for a continuous random variable to take on any particular value is 0 (since there is an infinite set of possible values to begin with), the value of the PDF at two different samples can be used to infer, in any particular draw of the random variable, how much more likely it is that the random variable would be close to one sample compared to the other sample.
