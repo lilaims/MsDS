@@ -8,7 +8,9 @@ Market Basket Analysis
   -algorithms for mining frequent itemsets :Eclat(Depth first) AND FP-Growth (Divide and conquer)
   - maximal and closed itemsets
   - Sequential Pattern Mining: GSP (Generalized Sequential Pattern) and SPADE 
+  - Constraint-Based Association Rule Mining
   - Multi-level Association Rule Mining:
+  - Quantitative Association Rule Mining:
 
 -------------------------------------
 Association rule mining is a technique used to uncover hidden relationships between variables in large datasets
