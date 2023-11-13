@@ -17,4 +17,7 @@ association rules
  if then statements
  single anticedent , multiple anticedent , multiple consequent
  using metrics to evaluate the significance of association rules
+ support count , Confidence, lift', 'leverage', 'conviction', or 'zhangs_metric'
+
+
 - transaction encoder - presence or absence of items
