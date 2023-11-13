@@ -4,9 +4,11 @@ Association rule mining / association analysis
 
 
 Market Basket Analysis
-  -mining frequent itemsets & generate rules from frequent itemsets found in a database : Apriori Frequent Itemset
-  -algorithms for mining frequent itemsets :Eclat AND FP-Growth
- 
+  -mining frequent itemsets & generate rules from frequent itemsets found in a database : Apriori Frequent Itemset (breadth first)
+  -algorithms for mining frequent itemsets :Eclat(Depth first) AND FP-Growth (Divide and conquer)
+  - maximal and closed itemsets
+  - Sequential Pattern Mining: GSP (Generalized Sequential Pattern) and SPADE 
+  - Multi-level Association Rule Mining:
 
 -------------------------------------
 Association rule mining is a technique used to uncover hidden relationships between variables in large datasets
