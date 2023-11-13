@@ -11,7 +11,8 @@ Market Basket Analysis
   - Constraint-Based Association Rule Mining
   - Multi-level Association Rule Mining:
   - Quantitative Association Rule Mining:
-
+may be variations or combinations of these methods in practice. The choice of the algorithm depends on 
+factors such as the dataset characteristics, computational efficiency, and the specific goals of the analysis
 -------------------------------------
 Association rule mining is a technique used to uncover hidden relationships between variables in large datasets
 
