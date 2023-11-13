@@ -1,0 +1,16 @@
+Association rule mining / association analysis
+ - market basket analysis, customer segmentation, and fraud detection.
+
+Market Basket Analysis
+  - Apriori Frequent Itemset
+  -
+
+-------------------------------------
+Association rule mining is a technique used to uncover hidden relationships between variables in large datasets
+
+
+   apriori
+   -transaction table , itemset table , candidate set 
+  - support count , Confidence
+
+- transaction encoder - presence or absence of items
