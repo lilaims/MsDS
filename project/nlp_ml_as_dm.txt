@@ -1,0 +1,3 @@
+: Information Extraction, Coreference Resolution, 
+Conversational AI, Dependency Parsing
+ in downstream tasks such as automated fact-checking, sarcasm detection,
