@@ -13,4 +13,8 @@ Association rule mining is a technique used to uncover hidden relationships betw
    -transaction table , itemset table , candidate set 
   - support count , Confidence
 
+association rules
+ if then statements
+ single anticedent , multiple anticedent , multiple consequent
+ using metrics to evaluate the significance of association rules
 - transaction encoder - presence or absence of items
