@@ -74,5 +74,78 @@ sample mean of a sequence of independent and identically distributed random vari
 
 
 Monte carlo Integration
+Algebraic Integration - integ(x^2)dx = x^3/3|a b
+Numeric Integration - limiting sum
+Limiting Sum:
+If you're referring to the concept of a limit of a sum, it could be related to the definition of an integral. The definite integral of a function 
+�
+(
+�
+)
+f(x) over an interval 
+[
+�
+,
+�
+]
+[a,b] is defined as the limit of a sum:
+
+lim
+⁡
+�
+→
+∞
+∑
+�
+=
+1
+�
+�
+(
+�
+�
+)
+Δ
+�
+lim 
+n→∞
+​
+ ∑ 
+i=1
+n
+​
+ f(x 
+i
+​
+ )Δx
+
+where 
+Δ
+�
+=
+�
+−
+�
+�
+Δx= 
+n
+b−a
+​
+  is the width of each subinterval and 
+�
+�
+x 
+i
+​
+  is a point in the 
+�
+i-th subinterval.
+
+Limiting Integration:
+If you're referring to limiting integration in a broader sense, it could relate to techniques like improper integrals, where the limits of integration are infinite or the function has singularities.
+
+Numerical Integration:
+In numerical analysis, there are methods like the trapezoidal rule or Simpson's rule, which approximate integration by dividing the area under a curve into smaller regions. These methods effectively involve a sum of function evaluations within each subinterval, and the limit of this sum approaches the integral as the number of subintervals approaches infinity.
+
 
 Central Limit Theorem
