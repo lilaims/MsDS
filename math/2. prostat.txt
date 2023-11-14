@@ -5,7 +5,7 @@ CDF
 Other parameters of scale
 
 Law of Large Numbers
-Monte Carlo Integration uses central limit theorem
+Monte Carlo Integration uses central limit theorem & law of large numbers
 Central Limit Theorem 
 Itertive Logarithms
 
