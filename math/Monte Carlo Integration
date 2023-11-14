@@ -1,0 +1,100 @@
+Monte Carlo Integration 
+Central Limit Theorem
+law of Large Numbers
+------------------------
+Basic Monte Carlo Integration:
+
+To approximate the integral of a function 
+�
+(
+�
+)
+f(x) over a domain 
+[
+�
+,
+�
+]
+[a,b], you generate random samples 
+�
+�
+x 
+i
+​
+  from a uniform distribution over 
+[
+�
+,
+�
+]
+[a,b].
+You then evaluate the function at these random points to obtain 
+�
+(
+�
+�
+)
+f(x 
+i
+​
+ ).
+The estimate of the integral is calculated as the average of 
+�
+(
+�
+�
+)
+f(x 
+i
+​
+ ) multiplied by the width of the interval: 
+�
+−
+�
+�
+∑
+�
+=
+1
+�
+�
+(
+�
+�
+)
+n
+b−a
+​
+ ∑ 
+i=1
+n
+​
+ f(x 
+i
+​
+ ), where 
+�
+n is the number of samples.
+Central Limit Theorem:
+
+The central limit theorem states that the distribution of the sum (or average) of a large number of independent, identically distributed random variables approaches a normal (Gaussian) distribution, regardless of the original distribution of the variables.
+In the context of Monte Carlo integration, the estimates 
+�
+(
+�
+�
+)
+f(x 
+i
+​
+ ) are random variables, and as you take more samples, the distribution of the sum (or average) of these estimates approaches a normal distribution.
+Monte Carlo Estimation Distribution:
+
+Because of the central limit theorem, the Monte Carlo estimates tend to follow a normal distribution as the number of samples increases.
+This normal distribution allows you to make probabilistic statements about the accuracy of your estimate and to construct confidence intervals.
+Confidence Intervals:
+*****
+With the knowledge of the normal distribution of the estimates, you can use the central limit theorem to construct confidence intervals. For instance, you can say with a certain level of confidence that the true integral lies within a certain range around your estimate.
+In summary, the central limit theorem is relevant to Monte Carlo integration because it helps characterize the distribution of the estimates, providing insights into the precision and reliability of the numerical approximation.
+
+the Law of Large Numbers is fundamental to Monte Carlo integration because it ensures that, as the number of random samples increases, the average of function values converges to the true expected value, allowing for accurate estimates of integrals. This convergence is essential for the reliability of Monte Carlo simulations in numerical integration.
