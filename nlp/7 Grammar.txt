@@ -1,5 +1,6 @@
 Generative Grammar
-Constituency
+ - Constituency
+ - Dependency relations
 Context Free Grammar
 
 Syntactic parsing and CKY algorithm
