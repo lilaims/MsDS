@@ -1,4 +1,9 @@
+Generative Grammar
+Constituency
+Context Free Grammar
 
+Syntactic parsing and CKY algorithm
+Probabilistic CFG
 
 -------------------------------
 Language has heirarchical struct
@@ -6,3 +11,4 @@ Language has heirarchical struct
 Generative grammar
 are sentences grammatical or not/ grammatical sentences
 and their rules
+-constituency
