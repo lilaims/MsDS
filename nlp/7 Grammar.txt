@@ -1,0 +1,8 @@
+
+
+-------------------------------
+Language has heirarchical struct
+
+Generative grammar
+are sentences grammatical or not/ grammatical sentences
+and their rules
