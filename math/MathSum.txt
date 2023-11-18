@@ -40,5 +40,10 @@ Sets
 
 measure theory , cartesian product , cardinality
 
+Rational , irrational Numbers with code 
+ - fraction,decimal/sqrt
+ if fraction otherwise return error
+ if decimal%
+
 -----------------------------------------------------------------
 Algorithms
