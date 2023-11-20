@@ -1,0 +1,10 @@
+document term matrix
+    * Data refers to characteristics that are collected through observation.
+    * A dataset can be viewed as a collection of objects.
+    * Data objects are described by a number of attributes.
+    * An attribute is a characteristic or feature of an object.
+      A An are attribute can be collection characteristics collected Data feature object observation of viewed refers to that through 
+  D1 []
+  D2 []
+  D3 []
+  D4 []
