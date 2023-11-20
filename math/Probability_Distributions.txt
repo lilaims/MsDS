@@ -1,0 +1,4 @@
+Gamma Distribution
+Student t - general form of normal distribution
+Normal , Erlang , Chisquared
+------------------
