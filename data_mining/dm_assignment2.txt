@@ -8,3 +8,6 @@ document term matrix
   D2 []
   D3 []
   D4 []
+
+------------------------------
+authority: a Web page with good, authoritative content on a specific topic; 2. hub: a Web page pointing to many authoritative Web pages.
