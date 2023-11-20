@@ -1,0 +1,7 @@
+Outlier Detection -
+ - Parametric :  observations that do not fit the overall distribution of the data
+ - Proximity : k nearest neighbhor (data distribution is unknown or multidimensional)
+ - Classification : One-Class SVM create a model to describe the 'normal' data and classify points
+        that fall outside this model as outliers
+
+----------------------------
