@@ -1,6 +1,11 @@
 probabilistic models
 
+pre process : tokenize , stop word removal, lemma , stemming
+feature extraction: Count-tf , tfidf,
+
 vader
 BERT - Bidirectional Encoder
 RoBERTa - transformer
 ----------------------------
+tokenizer1 = AutoTokenizer.from_pretrained("roberta-base")
+tokenizer2 = AutoTokenizer.from_pretrained("bert-base-cased")
