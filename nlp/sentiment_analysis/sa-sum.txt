@@ -1,0 +1,6 @@
+probabilistic models
+
+vader
+BERT - Bidirectional Encoder
+RoBERTa - transformer
+----------------------------
