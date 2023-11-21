@@ -7,5 +7,30 @@ vader
 BERT - Bidirectional Encoder
 RoBERTa - transformer
 ----------------------------
+RoBERTa, like other transformer-based models, doesn't explicitly use handcrafted features for sentiment analysis. Instead, it relies on learned representations from pre-training on large amounts of data. The model processes the input text at the token level, and the self-attention mechanism allows it to consider the context of each token in relation to others in the sequence.
+
 tokenizer1 = AutoTokenizer.from_pretrained("roberta-base")
 tokenizer2 = AutoTokenizer.from_pretrained("bert-base-cased")
+
+Roberta - Word Embeddings, Contextualized Representations, Attention Mechanism
+Word Embeddings:
+
+RoBERTa converts input words into dense vectors known as embeddings. These embeddings capture the semantic meaning of words based on the context in which they appear. The model uses a large vocabulary size to represent a wide range of words.
+Contextualized Representations:
+
+The transformer architecture allows RoBERTa to capture contextualized representations of words. Each word's embedding is influenced not only by the word itself but also by the surrounding words in the sequence. This is crucial for understanding the nuances and sentiment in a given text.
+Attention Mechanism:
+
+RoBERTa employs a self-attention mechanism, allowing it to assign different weights to different parts of the input sequence. This mechanism enables the model to focus more on relevant words and context when making predictions for sentiment.
+Deep Architecture:
+
+RoBERTa has a deep architecture with multiple layers of transformers. The deep structure enables the model to learn hierarchical and abstract features from the input text, capturing both local and global dependencies.
+Pre-training on Large Corpus:
+
+RoBERTa is pre-trained on a massive corpus of diverse text data. This pre-training helps the model learn general language representations, which can then be fine-tuned for specific tasks like sentiment analysis. The pre-training process exposes the model to a wide range of linguistic patterns and contexts.
+Transfer Learning:
+
+RoBERTa leverages transfer learning, where the model is first pre-trained on a large corpus for a language modeling task and then fine-tuned on a smaller dataset for sentiment analysis. Transfer learning allows the model to transfer knowledge gained during pre-training to the sentiment analysis task.
+The model learns to associate patterns in the input data with the corresponding sentiment labels during the fine-tuning phase. The above features collectively contribute to RoBERTa's ability to understand and analyze sentiment in natural language text.
+
+
