@@ -1,5 +1,6 @@
 sklearn
 numpy
+scipy
 pandas
 matplotlib
 
@@ -15,3 +16,5 @@ Streamz python lib - for streaming data
 streaming pandas based data frames
 tornado , kafka , cuda , dask , influx
 pd.dataframe(dict(val = value, index=[pd.timestamp.now()]))
+
+pydantic - data validation
