@@ -1,3 +1,21 @@
+1.
+a) What is the advantage of using the Apriori algorithm in comparison with computing the support of every subset of an itemset in order to find the frequent itemsets in a transaction dataset
+
+-------------
+b) b. [pen&paper] - Let 𝐿1 denote the set of frequent 1-itemsets. For 𝑘 ≥2 why must every frequent 𝑘-itemset be a superset of an itemset in 𝐿1?
+
+
+-------------
+c) c. [pen&paper] - Let 𝐿2={{1,2},{1,4},{2,3},{2,4},{3,5}}. Compute the set of candidates 𝐶3that is obtained by joining every pair of joinable itemsets from 𝐿2.
+
+-------------
+d) d. [pen&paper] - Let 𝑆1 denote the support of the association rule:
+
+{𝑏𝑜𝑎𝑟𝑑𝑖𝑛𝑔 𝑝𝑎𝑠𝑠,𝑝𝑎𝑠𝑠𝑝𝑜𝑟𝑡}⇒{𝑓𝑙𝑖𝑔ℎ𝑡}
+Let 𝑆2 denote the support of the association rule: {𝑏𝑜𝑎𝑟𝑑𝑖𝑛𝑔 𝑝𝑎𝑠𝑠} ⇒ {𝑓𝑙𝑖𝑔ℎ𝑡} What is the relationship between 𝑆1 and 𝑆2?
+
+
+_____________________________________________________________________________________________________
 document term matrix
     * Data refers to characteristics that are collected through observation.
     * A dataset can be viewed as a collection of objects.
