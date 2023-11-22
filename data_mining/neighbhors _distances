@@ -1,0 +1,7 @@
+neighbhor
+nearest neighbhor
+
+distance
+ - Euclidean , Manhattan , Minkowski
+ - Distance between distributions
+ - Mahalanobis distance - 
