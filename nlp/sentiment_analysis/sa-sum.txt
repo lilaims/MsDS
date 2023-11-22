@@ -7,6 +7,8 @@ vader - lexicon and rule-based sentiment analysis
 BERT - Bidirectional Encoder
 RoBERTa - transformer
 
+BERT, GPT, VADER, TextBlob, LSTM, CNN, FastText, and ULMFiT
+
 Term Dictionary:::
 Lexicon-based sentiment analysis is a popular technique for extracting the emotional polarity of text, such as positive, negative, or neutral. It relies on predefined dictionaries of words and phrases that have associated sentiment scores or categories.
 lexicon: Apart from individual words, there are also sentiment phrases and idioms, e.g., cost someone an arm and a leg. Collectively, they are called sentiment lexicon (or opinion lexicon). For easy presentation, from now on when we say sentiment words, we mean both individual words and phrases.
