@@ -3,7 +3,7 @@ probabilistic models
 pre process : tokenize , stop word removal, lemma , stemming
 feature extraction: Count-tf , tfidf,
 
-vader
+vader - lexicon and rule-based sentiment analysis
 BERT - Bidirectional Encoder
 RoBERTa - transformer
 ----------------------------
