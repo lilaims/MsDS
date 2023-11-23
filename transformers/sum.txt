@@ -1,0 +1,18 @@
+>>>Words
+Input(t,p) = TokenEmbeddings(t)+PositionalEncoding(p)
+token embeddings pre trained on corpus
+?- word2Vec, GloVe
+?-BERT, GPT
+
+>>>Images
+Image patches(Non overlapping) -> Linear Projection , Positional Encoding -> Vector
+
+The transformer encoder layers process the embedded image patches, capturing both spatial and semantic relationships between patches.
+
+?spatial and semantic relationships
+>
+-----------------------
+token embedding - words
+ - skip grams(context), continuous bag of words
+ - Neural Network Architecture - The training process updates the word embeddings so that words with similar contexts are closer together in the embedding space.
+ - Semantic relationships - words with similar meaning, similar contexts , similar vector representations
