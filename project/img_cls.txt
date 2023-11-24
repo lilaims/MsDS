@@ -17,3 +17,17 @@ AutoEncoders
 Bag of visual words
 Deep Features from CNNs
 
+--------------------
+Choose a Pre-trained Model:
+
+Select a pre-trained model suitable for image feature extraction. In this example, I'll use MobileNetV2.
+Extract Features:
+
+Load the pre-trained model and remove the top classification layers.
+Pass your images through the model to obtain feature vectors.
+Train a Classifier:
+
+Train a simple classifier (e.g., a linear SVM or a small neural network) using the extracted features.
+Make Predictions:
+
+Use the trained classifier to make predictions on new images.
