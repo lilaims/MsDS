@@ -2,3 +2,18 @@
 pca
 feature extraction - 
 vgg16 - tensorflow.keras.preprocessing/applications.image/vgg16
+------------------
+Handcrafted --
+ - Histograms of Oriented Gradients (HOG): Captures the distribution of intensity gradients in local image patches.
+ - Local Binary Patterns (LBP): Describes the local texture pattern in an image.
+ - Color Histograms: Represents the distribution of color in an image.
+ - SIFT (Scale-Invariant Feature Transform): Detects and describes local features that are invariant to scale and rotation.
+
+CNN - Convolutional Neural Networks
+ - VGG, ResNet, Inception
+ - Feature Extraction Layers: Extract features from intermediate layers of a pre-trained CNN.
+
+AutoEncoders
+Bag of visual words
+Deep Features from CNNs
+
