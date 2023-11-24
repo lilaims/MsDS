@@ -1,4 +1,4 @@
 
 pca
 feature extraction - 
-vgg16
+vgg16 - tensorflow.keras.preprocessing/applications.image/vgg16
