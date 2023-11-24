@@ -1,3 +1,7 @@
+'''
+This example uses a linear Support Vector Machine (SVM) as the classifier, 
+but you can experiment with other classifiers or neural network architectures depending on your specific requirements.
+'''
 import numpy as np
 import os
 import tensorflow as tf
