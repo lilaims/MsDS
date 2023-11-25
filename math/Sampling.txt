@@ -1,0 +1,17 @@
+Simple Random
+Stratified
+Systematic
+
+Cluster
+Convinience
+Snowball
+
+Quota
+Purposive
+
+Random Stratified
+Multistage
+
+Rejection Sampling
+Importance Sampling
+----------------------------
