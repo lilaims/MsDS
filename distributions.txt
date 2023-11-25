@@ -1,0 +1,11 @@
+Gamma Functions (df=[(k=1,thet=2),(k=1,thet=2),(k=2,thet=1.5).....])
+  exponential --> skewd normal -> normal --> skewed --> expoential
+  k --> increasing
+  theta --> decreasing
+
+chi squared : sum of squares of k independent normal distributions
+          usually used in tsting, not approximating distributions
+  - k--> increasing
+  - exponential to skewed normal
+
+the gamma with k=1 and chi squared with k=1 give exponential distribution with rate parameter lambda = 1
