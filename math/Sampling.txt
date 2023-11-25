@@ -15,3 +15,37 @@ Multistage
 Rejection Sampling
 Importance Sampling
 ----------------------------
+Random Sampling - through random number generators, every population has equal chance
+Stratified - population divided into subgroups based on characteristic , equal random sampling is done for all groups
+ystematic Sampling:
+
+Selecting every kth individual from a list after randomly choosing a starting point.
+For example, selecting every 10th person from a list of 100.
+Cluster Sampling:
+
+The population is divided into clusters, and entire clusters are randomly selected.
+Within the chosen clusters, all individuals are included in the sample.
+Convenience Sampling:
+
+Selecting individuals who are easiest to reach or readily available.
+While convenient, this method may introduce bias as it doesn't ensure a representative sample.
+Snowball Sampling:
+
+Participants are used to recruit more participants.
+Often used in situations where the population is hard to reach.
+Quota Sampling:
+
+Similar to stratified sampling but non-random.
+Researchers select a certain number of individuals from different categories until the quota is filled.
+Purposive or Judgmental Sampling:
+
+Researchers choose participants based on their judgment about who would be most appropriate for the study.
+Common in qualitative research.
+Random Stratified Sampling:
+
+A combination of simple random sampling and stratified sampling.
+Random samples are taken from each stratum.
+Multistage Sampling:
+
+Involves multiple stages of sampling, often incorporating different methods.
+For example, randomly selecting schools, then classes, and finally students.
