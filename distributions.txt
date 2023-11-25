@@ -1,11 +1,19 @@
-Gamma Functions (df=[(k=1,thet=2),(k=1,thet=2),(k=2,thet=1.5).....])
+1) Gamma Functions (df=[(k=1,thet=2),(k=1,thet=2),(k=2,thet=1.5).....])
   exponential --> skewd normal -> normal --> skewed --> expoential
   k --> increasing
   theta --> decreasing
 
-chi squared : sum of squares of k independent normal distributions
+2) chi squared : sum of squares of k independent normal distributions
           usually used in tsting, not approximating distributions
+  -k=1,2,3.....
   - k--> increasing
   - exponential to skewed normal
 
 the gamma with k=1 and chi squared with k=1 give exponential distribution with rate parameter lambda = 1
+
+3) Student t distribution
+ - Cauchys distribution till df=[1,2,3]
+- tends to normal distribution df[5,6..20,,,,,inf]
+- used when low samples are there , 
+- when high samples are there for df=3 becomes a normal distribution
+
