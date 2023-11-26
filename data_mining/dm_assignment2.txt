@@ -9,7 +9,9 @@ b) b. [pen&paper] - Let 𝐿1 denote the set of frequent 1-itemsets. For 𝑘 �
 
 -------------
 c) c. [pen&paper] - Let 𝐿2={{1,2},{1,4},{2,3},{2,4},{3,5}}. Compute the set of candidates 𝐶3that is obtained by joining every pair of joinable itemsets from 𝐿2.
+{[(1,2),(2,3)],[(1,2),(1,4)],[(1,4),(2,4)],[(2,3),(2,4)],[(2,3),(3,5)]}
 
+{{1,2,3},{1,2,4},{2,3,4}{2,3,5}}
 -------------
 d) d. [pen&paper] - Let 𝑆1 denote the support of the association rule:
 
