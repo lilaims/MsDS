@@ -20,7 +20,26 @@ d) d. [pen&paper] - Let 𝑆1 denote the support of the association rule:
 {𝑏𝑜𝑎𝑟𝑑𝑖𝑛𝑔 𝑝𝑎𝑠𝑠,𝑝𝑎𝑠𝑠𝑝𝑜𝑟𝑡}⇒{𝑓𝑙𝑖𝑔ℎ𝑡}
 Let 𝑆2 denote the support of the association rule: {𝑏𝑜𝑎𝑟𝑑𝑖𝑛𝑔 𝑝𝑎𝑠𝑠} ⇒ {𝑓𝑙𝑖𝑔ℎ𝑡} What is the relationship between 𝑆1 and 𝑆2?
 
+The relationship between the support values s1 and s2 in association rules can be expressed in terms of set inclusion. Specifically:
+s1≥s2
 
+The support of an association rule represents the proportion of transactions in the dataset that contain all the items in the rule. In this context:
+
+�
+1
+s1 is the support of the association rule {boarding pass, passport} => {flight}.
+�
+2
+s2 is the support of the association rule {boarding pass} => {flight}.
+Since the first rule ({boarding pass, passport} => {flight}) has a more specific condition by including both "boarding pass" and "passport," any transaction that satisfies the first rule will also satisfy the second rule ({boarding pass} => {flight}). Therefore, the support of the first rule 
+�
+1
+s1 cannot be smaller than the support of the second rule 
+�
+2
+s2. In other words, the support of the rule with more items in the antecedent (left-hand side) is always greater than or equal to the support of the rule with fewer items in the antecedent.
+
+This relationship holds because the more items you require in the antecedent, the more specific and restrictive the rule becomes, and the fewer transactions will satisfy it.
 _____________________________________________________________________________________________________
 document term matrix
     * Data refers to characteristics that are collected through observation.
