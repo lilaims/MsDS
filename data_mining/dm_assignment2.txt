@@ -1,6 +1,6 @@
 1.
 a) What is the advantage of using the Apriori algorithm in comparison with computing the support of every subset of an itemset in order to find the frequent itemsets in a transaction dataset
-
+Breadth first search optimization
 -------------
 b) b. [pen&paper] - Let 𝐿1 denote the set of frequent 1-itemsets. For 𝑘 ≥2 why must every frequent 𝑘-itemset be a superset of an itemset in 𝐿1?
 
