@@ -41,6 +41,11 @@ s2. In other words, the support of the rule with more items in the antecedent (l
 
 This relationship holds because the more items you require in the antecedent, the more specific and restrictive the rule becomes, and the fewer transactions will satisfy it.
 _____________________________________________________________________________________________________
+
+Contextual outliers have been most commonly explored in time-series data [2] and spatial data [3].
+
+
+_____________________________________________________________________________________________________
 document term matrix
     * Data refers to characteristics that are collected through observation.
     * A dataset can be viewed as a collection of objects.
