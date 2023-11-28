@@ -3,9 +3,11 @@ Median
 Spread 
 Outliers
 
+t-SNE - for visualization
 Histogram can be used for categorical data 
   to find out if categorical data is present#
 frequency division and unsupervised learning can be used to seperate out data 
 
 Dimensionality Reduction Techniques
 Principal Component Analysis
+t-SNE - for dimensionality reduction
