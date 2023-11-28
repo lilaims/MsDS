@@ -1,0 +1,19 @@
+Dimensionality Reduction
+Linear , Non Linear
+
+- Linear : 
+  Principal Component Analysis(PCA), Linear Discriminant Analysis(LDA), 
+  Canonical Correlation Analysis(CCA), Non-Negative Matrix Factorization (NMF),
+  Factor Analysis(FA), Independent Component Analysis (ICA), Random Projection , 
+  PCA-based Methods (e.g., Incremental PCA): Variants of PCA
+- Non Linear :
+  t-SNE (t-distributed Stochastic Neighbor Embedding), UMAP (Uniform Manifold Approximation and Projection),
+  Isomap (Isometric Mapping), LLE (Locally Linear Embedding), AutoEncoders
+  Kernel PCA (Principal Component Analysis): While PCA is a linear technique, kernel PCA extends it to non-linear spaces
+  PHATE (Potential of Heat-diffusion for Affinity-based Transition Embedding)
+
+Dimensionality Reduction Use:
+ Reducing dimensions , Data Compression, Data Visualization,
+ Noise Reduction, Feature Extraction, Embedding, Computational Efficiency
+-----------------------------------------------------------
+  
