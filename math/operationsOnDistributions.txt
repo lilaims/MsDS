@@ -1,0 +1,14 @@
+Additions of two distributions
+
+Multiplication of Scalar and distributions
+Multiplication of distributions
+
+------------------------------
+Additions of two distributions
+P(A)+P(B) = Iteg(f(x)g(t-x)dx)
+
+Note that this convolution operation can be computationally expensive, especially for continuous distributions. 
+In practice, convolutions are often calculated using numerical methods, especially when closed-form solutions 
+are not readily available.
+
+
