@@ -1,0 +1,44 @@
+Basic concepts about data, such as attributes and objects
+Characteristics of data
+Basic types of data
+Criteria for data quality
+Basic statistical descriptions of data
+Measures for similarity and distance
+Ways to load and explore data in python
+
+An overview for data preprocessing methods
+Methods for data cleaning (handling missing and noisy data)
+Methods for data integration (chi-square correlation test, correlation coefficient)
+Methods for data reduction (regression methods, histograms, sampling, attribute selection, PCA)
+Methods for data transformation and data discretisation (normalisation, one-hot encoding, discretisation, concept hierarchy generation)
+
+Techniques for data summarisation
+Basic principles of data visualisation
+Techniques for data visualisation
+
+Basic concepts on Data Warehousing
+Methods and tools for data warehouse modelling
+Aspects of data warehouse design and usage
+Practical aspects of data warehouse implementation
+
+Basic concepts on classification and clustering methods
+How to use the k-nearest neighbours algorithm to solve classification problems
+How to use the k-means clustering algorithm to solve clustering problems
+Methods for evaluating the performance of classification and clustering methods
+Methods for model selection for classification and clustering
+
+
+Basic concepts & notations for association mining
+Frequent itemset mining methods
+Methods for generating association rules
+Pattern evaluation measures
+
+Basic concepts of outliers and outlier detection methods
+How to choose an outlier detection method depending on the problem
+How to use statistical, proximity-based, clustering-based, and classification approaches for outlier detection
+How to mine conceptual outliers
+
+Basic concepts on internet and web technologies
+Internet and web mining applications
+Algorithms for internet data harvesting and web crawling
+Algorithms for search engine indexing and ranking
