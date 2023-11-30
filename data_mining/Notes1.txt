@@ -10,7 +10,8 @@ Classification- one class SVM - point and normal distribution, distribution : no
 Conceptual , statistical outliers
 
 why do we need to detect outliers
-
+outliers isnt noise?
+then- 
 -----------------------
 Web crawlers - getting urls recursively using bfs
 The behavior of a Web crawler is the outcome of a combination of policies:[7]
