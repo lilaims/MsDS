@@ -1,0 +1,30 @@
+Association mining
+
+
+-----------------------
+Outlier  & Outlier detection
+Parametric - Mahalnobis distance for point and distribution(known)
+Clustering - kmeans clustering, points outside cluster, distribution unkown
+Classification- one class SVM - point and normal distribution, distribution : normal
+
+Conceptual , statistical outliers
+
+why do we need to detect outliers
+
+-----------------------
+Web crawlers - getting urls recursively using bfs
+The behavior of a Web crawler is the outcome of a combination of policies:[7]
+
+a selection policy which states the pages to download,
+a re-visit policy which states when to check for changes to the pages,
+a politeness policy that states how to avoid overloading Web sites.
+a parallelization policy that states how to coordinate distributed web crawlers.
+
+Data harvesting
+
+-----------------------
+search engine indexing and ranking
+use web crawlers to get url , data , metadata , images
+group based on similarity of data , metadata, images
+rank the grouping relative to similarity between search vector
+
