@@ -1,0 +1,15 @@
+Distributional Hypothesis  
+
+
+
+-------------------------
+Space
+Distributional semantic models differ primarily with respect to the following parameters:
+
+Context type (text regions vs. linguistic items)
+Context window (size, extension, etc.)
+Frequency weighting (e.g. entropy, pointwise mutual information,[15] etc.)
+Dimension reduction (e.g. random indexing, singular value decomposition, etc.)
+Similarity measure (e.g. cosine similarity, Minkowski distance, etc.)
+
+Distributional semantic models that use linguistic items as context have also been referred to as word space, or vector space models.[16][17]
