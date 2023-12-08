@@ -6,6 +6,8 @@ QMUL...
 
 2. Requirement of machine learning: problem - identifying , classifying food to generating new recipes - already done.
 
+      Source of food to , food in life , in health, psychology
+
 Build a classical model to extract features based on colour segmentation and edge detection
 
 using the width of the pixels and spatial areas .....
