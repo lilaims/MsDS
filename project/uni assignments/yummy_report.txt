@@ -1,4 +1,5 @@
-laptop is compromised
+laptop is compromised 
+google,twitter,microsoft.....
 
 Requirement of machine learning: Large Dataset - changing from small to large dataset.
 
