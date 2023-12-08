@@ -8,6 +8,8 @@ QMUL...
 
       Source of food to , food in life , in health, psychology
 
+3. Feature Extraction based on domain: Images - edges, colours, shapes
+
 Build a classical model to extract features based on colour segmentation and edge detection
 
 using the width of the pixels and spatial areas .....
