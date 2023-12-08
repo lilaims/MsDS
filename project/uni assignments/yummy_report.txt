@@ -4,7 +4,7 @@ QMUL...
 
 1. Requirement of machine learning: Large Dataset - changing from small to large dataset.
 
-2. Requirement of machine learning: problem - classifying food to generating new recipes - already done.
+2. Requirement of machine learning: problem - identifying , classifying food to generating new recipes - already done.
 
 Build a classical model to extract features based on colour segmentation and edge detection
 
