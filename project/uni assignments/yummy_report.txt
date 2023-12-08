@@ -1,0 +1,9 @@
+laptop is compromised
+
+Requirement of machine learning: Large Dataset - changing from small to large dataset.
+
+Build a classical model to extract features based on colour segmentation and edge detection
+
+using the width of the pixels and spatial areas .....
+
+Build the same using neural networks.
