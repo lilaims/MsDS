@@ -1,4 +1,5 @@
- **Here's a breakdown of the model architecture you provided:**
+feature extraction with kernels of convolution operations
+**Here's a breakdown of the model architecture you provided:**
 
 **1. Input Layer:**
 
