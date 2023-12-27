@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T07:29:10.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="dCRAgcQZHP5_uZdkwyb8" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T11:11:26.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="KO9k2ntsyCLkHP7uxjBH" version="22.1.12" type="github">
   <diagram name="Page-1" id="2ATO_V_CDCJR8p1FO_BE">
     <mxGraphModel dx="786" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="AKseS5CDGUMhlcIIg9Ny-14" value="Action Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-15" value="Embedding Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-20" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
