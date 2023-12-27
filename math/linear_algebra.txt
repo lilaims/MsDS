@@ -1,4 +1,4 @@
-Inner Product Space
+Inner Product Space : function that assigns a scalar value (real or complex) to any pair of vectors in the space. This function captures the notion of "closeness" or "similarity" between vectors.
  -Euclidean Space, Functional Space, Complex Space, Hilbert Space
 
 Latent Spaces
