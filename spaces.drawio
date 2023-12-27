@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T07:20:19.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.12" etag="YG8-CzhkZfi6JzWjZSir" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T07:26:11.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="qS2GFABSCT2Ei8VlPOfG" version="22.1.12" type="github">
   <diagram name="Page-1" id="2ATO_V_CDCJR8p1FO_BE">
-    <mxGraphModel>
+    <mxGraphModel dx="786" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-1" value="Input Space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-2" value="Binary&lt;br&gt;Numerical&lt;br&gt;Categorical&lt;br&gt;&lt;br&gt;Images&lt;br&gt;Text&lt;br&gt;Sequences&lt;br&gt;&lt;br&gt;Transactions&lt;br&gt;Graphs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-3" value="Feature Space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-4" value="Hilbert Space" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-5" value="Latent Space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-6" value="Binary&lt;br&gt;Numerical&lt;br&gt;Categorical&lt;br&gt;&lt;br&gt;Images&lt;br&gt;Text&lt;br&gt;Sequences&lt;br&gt;&lt;br&gt;Transactions&lt;br&gt;Graphs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-7" value="Output Space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-8" value="Binary&lt;br&gt;Numerical&lt;br&gt;Categorical&lt;br&gt;&lt;br&gt;Images&lt;br&gt;Text&lt;br&gt;Sequences&lt;br&gt;&lt;br&gt;Transactions&lt;br&gt;Graphs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-10" width="460" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKseS5CDGUMhlcIIg9Ny-11" value="Knowledge Space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="410" width="630" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
