@@ -1,3 +1,6 @@
+Inner Product Space
+ -Euclidean Space, Functional Space, Complex Space, Hilbert Space
+
 Latent Spaces
 Dimensionality Reduction
 Eigen Decomposition
