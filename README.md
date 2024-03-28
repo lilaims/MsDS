@@ -1,5 +1,7 @@
 # MsDS
 
+**Coniunctis viribus** translates to **"with connected strength"** in English¹²³. It conveys the idea of combining forces or resources to achieve a common goal. 🤝💪
+
 Traditional AI , Predictive AI , Generative AI
 
 Machine Learning - Supervised , Unsupervised , Reinforcement
