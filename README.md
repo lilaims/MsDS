@@ -6,6 +6,10 @@ Traditional AI , Predictive AI , Generative AI
 
 Machine Learning - Supervised , Unsupervised , Reinforcement
 
+
+![Screenshot 2024-05-19 083657](https://github.com/lilaims/MsDS/assets/69478966/86dfd900-b106-48c4-b6a2-09c88e81868e)
+
+
 ((Parts of it is integrated with draw.io
 
 ![image](https://github.com/lilaims/MsDS/assets/69478966/1df62581-fc7f-4f6e-92ba-d5347fe2f69b)
