@@ -1,0 +1,15 @@
+Science is not about sophisticated instrumentation, maths or theories: it
+is about evaluating our knowledge.
+
+Knowledge can be represented as a
+Proposition (statement, law)
+Smaller animals have a faster heartrate.
+Narrative (description, story)
+The size of an animal seems to be related to its heart rate. In
+general, larger animals tend to have a slow heart rate. For instance,
+the humpback whale...
+Model (mathematical or computer)
+r = 235 × m−1/4
+, where r is the heart rate and m is the body mass.
+
+Knowledge as a model
